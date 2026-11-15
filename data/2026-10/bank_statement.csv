@@ -1,0 +1,13 @@
+date,ref,description,amount
+2026-10-01,DEP-1041,Customer receipt INV-1041,48000
+2026-10-03,PR-1003,Payroll 9/16-9/30,-62500
+2026-10-05,ACH-3301,October rent - Pinecrest Properties,-9500
+2026-10-09,ACH-3302,Cloud hosting - September usage,-7800
+2026-10-12,DEP-1043,Customer receipt INV-1043,36000
+2026-10-15,PR-1015,Payroll 10/1-10/15,-62500
+2026-10-19,DEP-1044,Customer receipt INV-1044 (annual prepay),72000
+2026-10-21,ACH-3303,Project management software,-4200
+2026-10-22,ACH-3304,Brightline Media - October campaign,-6000
+2026-10-26,DEP-1046,Customer receipt INV-1046,54000
+2026-10-31,SVC-FEE,Monthly account service fee,-45
+2026-10-31,INT-OCT,Interest earned,120

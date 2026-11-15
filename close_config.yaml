@@ -1,0 +1,36 @@
+# Close policy for the entity. These are YOUR company's rules: the agent never invents them.
+# Replace every value below with your own policy before running a real close.
+
+entity: Northwind Analytics, Inc. (fictional)
+period: "2026-10"
+currency: USD
+framework: US GAAP
+
+thresholds:
+  flux_amount: 5000          # explain any P&L line moving more than this ($)...
+  flux_percent: 0.10         # ...and more than this (%) vs prior month or budget
+  je_approval: 10000         # proposed JEs at or above this need Controller approval
+  rec_tolerance: 1.00        # unexplained rec differences under this are treated as rounding
+
+bank:
+  gl_account: "1000"
+  match_date_window_days: 3
+
+accounts:
+  cash: "1000"
+  ar: "1100"
+  prepaid: "1300"
+  fixed_assets: "1500"
+  accum_depreciation: "1510"
+  ap: "2000"
+  accrued_liabilities: "2100"
+  deferred_revenue: "2400"
+  subscription_revenue: "4000"
+  depreciation_expense: "6400"
+  bank_fees: "6700"
+  interest_income: "7000"
+
+# Patterns learned from prior closes. Add to this after each review.
+known_patterns:
+  - Cloud hosting ACH posts to the bank one business day after the GL date.
+  - Customer receipts entered on the 31st usually clear the bank on the 1st or 2nd.

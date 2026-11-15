@@ -1,0 +1,6 @@
+customer,invoice,invoice_date,amount,bucket
+Cascade Health,INV-1039,2026-08-28,22500,61-90
+Juniper Logistics,INV-1045,2026-10-02,41000,0-30
+Meridian Retail,INV-1047,2026-10-15,58000,0-30
+Alder Foods,INV-1049,2026-10-28,33400,0-30
+Summit Dental,INV-1042,2026-09-20,31000,31-60

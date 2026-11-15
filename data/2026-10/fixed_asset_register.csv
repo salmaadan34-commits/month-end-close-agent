@@ -1,0 +1,5 @@
+asset_id,description,in_service,cost,life_months
+FA-001,Office furniture,2024-01-01,36000,60
+FA-002,Servers and network gear,2024-07-01,72000,36
+FA-003,Employee laptops - 2025 refresh,2025-03-01,43200,36
+FA-004,Employee laptops - new hires,2026-10-01,7200,36

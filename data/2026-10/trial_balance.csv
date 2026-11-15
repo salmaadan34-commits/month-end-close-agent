@@ -1,0 +1,23 @@
+account,name,type,balance
+1000,Cash - Operating,Asset,440950.0
+1100,Accounts Receivable,Asset,186500.0
+1300,Prepaid Expenses,Asset,28500.0
+1500,Fixed Assets,Asset,158400.0
+1510,Accumulated Depreciation,Asset,-96600.0
+2000,Accounts Payable,Liability,-41200.0
+2100,Accrued Liabilities,Liability,-12000.0
+2400,Deferred Revenue,Liability,-195000.0
+3000,Common Stock,Equity,-250000.0
+3100,Retained Earnings,Equity,-240450.0
+4000,Subscription Revenue,Revenue,-118000.0
+4100,Services Revenue,Revenue,-22000.0
+5000,Cost of Revenue - Hosting,Expense,7800.0
+6000,Salaries & Wages,Expense,125000.0
+6100,Software & Subscriptions,Expense,4200.0
+6200,Rent,Expense,9500.0
+6300,Professional Fees,Expense,8400.0
+6400,Depreciation Expense,Expense,0.0
+6500,Marketing,Expense,6000.0
+6600,Insurance,Expense,0.0
+6700,Bank Fees,Expense,0.0
+7000,Interest Income,Revenue,0.0

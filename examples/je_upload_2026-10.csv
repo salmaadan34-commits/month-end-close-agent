@@ -1,0 +1,18 @@
+JE ID,Period,Account,Account name,Debit,Credit,Line memo,JE description,Auto-reverse,Needs approval,Flags,Support
+JE-2026-10-01,2026-10,6700,Bank Fees,45.0,,Monthly account service fee,Record bank item: Monthly account service fee,,,,Bank statement 2026-10-31 SVC-FEE
+JE-2026-10-01,2026-10,1000,Cash - Operating,,45.0,SVC-FEE,Record bank item: Monthly account service fee,,,,Bank statement 2026-10-31 SVC-FEE
+JE-2026-10-02,2026-10,1000,Cash - Operating,120.0,,INT-OCT,Record bank item: Interest earned,,,,Bank statement 2026-10-31 INT-OCT
+JE-2026-10-02,2026-10,7000,Interest Income,,120.0,Interest earned,Record bank item: Interest earned,,,,Bank statement 2026-10-31 INT-OCT
+JE-2026-10-03,2026-10,6300,Professional Fees,3200.0,,Q3 review procedures performed in October,Accrue Baker & Lane CPAs BL-2026-114: Q3 review procedures performed in October,2026-11-01,,,Invoice BL-2026-114 received 2026-11-04
+JE-2026-10-03,2026-10,2100,Accrued Liabilities,,3200.0,Baker & Lane CPAs BL-2026-114,Accrue Baker & Lane CPAs BL-2026-114: Q3 review procedures performed in October,2026-11-01,,,Invoice BL-2026-114 received 2026-11-04
+JE-2026-10-04,2026-10,6600,Insurance,1500.0,,D&O insurance policy,Prepaid amortization,,,,prepaid_schedule.csv
+JE-2026-10-04,2026-10,6100,Software & Subscriptions,2000.0,,CRM annual subscription,Prepaid amortization,,,,prepaid_schedule.csv
+JE-2026-10-04,2026-10,6100,Software & Subscriptions,1500.0,,Security tooling annual license,Prepaid amortization,,,,prepaid_schedule.csv
+JE-2026-10-04,2026-10,1300,Prepaid Expenses,,5000.0,Prepaid amortization,Prepaid amortization,,,,prepaid_schedule.csv
+JE-2026-10-05,2026-10,6400,Depreciation Expense,4000.0,,4 assets,Monthly depreciation,,,,fixed_asset_register.csv
+JE-2026-10-05,2026-10,1510,Accumulated Depreciation,,4000.0,Accumulated depreciation,Monthly depreciation,,,,fixed_asset_register.csv
+JE-2026-10-06,2026-10,2400,Deferred Revenue,19000.0,,Release deferred revenue,Recognize subscription revenue,,Yes,,deferred_revenue_schedule.csv
+JE-2026-10-06,2026-10,4000,Subscription Revenue,,5000.0,C-201 Juniper Logistics,Recognize subscription revenue,,Yes,,deferred_revenue_schedule.csv
+JE-2026-10-06,2026-10,4000,Subscription Revenue,,4000.0,C-207 Meridian Retail,Recognize subscription revenue,,Yes,,deferred_revenue_schedule.csv
+JE-2026-10-06,2026-10,4000,Subscription Revenue,,4000.0,C-212 Cascade Health,Recognize subscription revenue,,Yes,,deferred_revenue_schedule.csv
+JE-2026-10-06,2026-10,4000,Subscription Revenue,,6000.0,C-219 Alder Foods,Recognize subscription revenue,,Yes,,deferred_revenue_schedule.csv

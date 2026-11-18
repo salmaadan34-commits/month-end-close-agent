@@ -1,0 +1,17 @@
+account,side,date,amount,description,expected_category
+OPERATING,book,2026-07-18,-875.5,Check 10233 - Olympic Supply Co,Stale item
+OPERATING,book,2026-10-22,-3568.38,Check 10462 - Ballard Signs,Outstanding check
+OPERATING,book,2026-10-23,-1950.24,Check 10463 - Ballard Signs,Outstanding check
+OPERATING,book,2026-10-27,-418.88,Check 10464 - Ballard Signs,Outstanding check
+OPERATING,book,2026-10-29,-1279.68,Check 10465 - Capitol Hill Locksmith,Outstanding check
+OPERATING,book,2026-10-30,-5042.55,Check 10466 - Fremont Events,Outstanding check
+OPERATING,book,2026-10-28,14791.22,Customer payment - Lumen Energy,Deposit in transit
+OPERATING,book,2026-10-29,14763.27,Customer payment - Driftwood Media,Deposit in transit
+OPERATING,book,2026-10-30,5123.47,Customer payment - Maple Street Bakery,Deposit in transit
+OPERATING,bank,2026-10-14,-30.0,OUTGOING WIRE FEE,Unbooked bank fee
+OPERATING,bank,2026-10-30,-45.0,MONTHLY SERVICE FEE,Unbooked bank fee
+OPERATING,bank,2026-10-30,212.37,INTEREST PAYMENT,Unbooked interest
+OPERATING,bank,2026-10-22,25000.0,INCOMING WIRE FROM ACME HOLDINGS LLC,Unrecorded transaction
+OPERATING,book,2026-10-09,-3180.0,Vendor payment - Cloudhost Inc Bill-4471,Duplicate GL entry
+OPERATING,book,2026-10-16,-1524.0,Vendor payment - Office Depot Bill-6012,Amount mismatch
+OPERATING,bank,2026-10-16,-1254.0,ACH DEBIT OFFICE DEPOT 552190,Amount mismatch

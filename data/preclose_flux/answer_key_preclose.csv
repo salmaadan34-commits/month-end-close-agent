@@ -1,0 +1,14 @@
+category,je_number,note
+Segregation of duties,JE-202610-007,Manual JE created and approved by the same user
+Unusual amount,JE-202610-009,4x normal monthly spend; annual renewal should go to prepaid
+Missing field,JE-202610-010,Department missing
+Missing field,JE-202610-012,Department missing
+Duplicate,JE-202610-014,Same HubSpot invoice entered twice
+Wrong account,JE-202610-016,Rent coded to Software Subscriptions
+Wrong account,JE-202610-019,Office supplies coded to Hosting (COGS)
+Missing field,JE-202610-020,Department missing
+Missing field,JE-202610-021,Vendor missing
+Missing field,JE-202610-022,Memo missing
+Cutoff,JE-202610-026,November service booked in October
+Unbalanced JE,JE-202610-027,"Debits 5,000 vs credits 4,500"
+Missing approval,JE-202610-028,Manual JE has no approver

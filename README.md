@@ -55,6 +55,47 @@ Output goes to `output/`:
 
 A sample run is in [`examples/`](examples/).
 
+## Deep-dive modules
+
+Two standalone modules go further than the core close on the two areas where close time usually goes: reconciling cash and reviewing the GL before close. Each has its own sample data and answer key, and runs offline.
+
+### Bank reconciliation agent (`bankrec/`)
+
+```bash
+python -m bankrec          # add --llm for Claude review of unexplained items
+```
+
+- **Matching in five passes:**
+  1. Exact amount + reference
+  2. Unique amount within ±3 business days
+  3. Fuzzy vendor-name tie-break (`BRIGHTLINE CONSULT` ↔ `Brightline Consulting`)
+  4. Many-to-one (one Stripe payout = 4 GL receipts)
+  5. Claude review of anything left
+- **Classifies every open item:** outstanding checks, deposits in transit, stale checks (>60 days), unbooked fees and interest, duplicate GL entries, transposition errors (difference divisible by 9), unrecorded wires. Each comes with a balanced proposed JE.
+- **Result on the sample month (267 bank lines, 2 accounts):** 98% / 100% auto-matched, 16 of 16 planted exceptions caught, ties to $0.00.
+- **Outputs:** the rec workpaper (live formulas), a daily cash position report and an audit log. See [`examples/bank_rec_2026-10.xlsx`](examples/bank_rec_2026-10.xlsx).
+
+### Pre-close checks + driver-based flux (`preclose/`)
+
+```bash
+python -m preclose         # add --llm for Claude to polish the commentary
+```
+
+- **Tests 100% of journal lines, no sampling:**
+  - Unbalanced JEs
+  - Manual JEs with no approver
+  - Segregation of duties (same preparer and approver)
+  - Duplicate invoices
+  - Vendors coded to the wrong account vs their history
+  - Cutoff (service period after the close month)
+  - Unusual amounts (annual renewals routed to prepaid)
+  - Missing department, vendor or memo
+
+  Fixable findings come with a balanced proposed reclass.
+- **Flux with drivers:** breaks each material change into vendors, customers or departments, labeled new, stopped, up or down. It **links drivers to pre-close findings**: when rent shows −100% and software +275% because WeWork was miscoded, the commentary cites the finding instead of explaining a booking error as a real variance.
+- **Result on the sample month (108 lines, 4 months of history):** 13 of 13 planted issues found and 9 accounts flagged, each with the correct driver.
+- **Outputs:** [`examples/close_review_2026-10.xlsx`](examples/close_review_2026-10.xlsx) and a draft CFO memo, [`examples/flux_commentary_2026-10.md`](examples/flux_commentary_2026-10.md).
+
 ## Sample data
 
 `data/2026-10/` is an October close for **Northwind Analytics, Inc.**, a fictional SaaS company. Run `python scripts/generate_sample_data.py` to rebuild it. Issues were planted in it on purpose so the agent has something to find:
@@ -78,6 +119,8 @@ python -m pytest
 ```
 
 The tests cover bank matching, the no-plug rule for unexplained differences, JE balancing and amounts, auto-reversal, the approval threshold, step order, the export, and the agent tool loop (with a stub client, so no API calls).
+
+The deep-dive modules are tested against their answer keys (`data/bank_rec/answer_key.csv` and `data/preclose_flux/answer_key_*.csv`). The tests check that every planted issue is found with the right category, recs tie to $0.00, proposed JEs balance and flux drivers are named correctly.
 
 ## Roadmap
 

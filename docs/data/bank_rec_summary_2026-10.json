@@ -1,0 +1,291 @@
+{
+ "module": "bankrec",
+ "period_end": "2026-10-31",
+ "matches": 262,
+ "accounts": [
+  {
+   "account": "OPERATING",
+   "gl_account": "1010",
+   "bank_end": 1107152.75,
+   "gl_end": 1100108.11,
+   "adjusted_bank": 1128695.48,
+   "adjusted_book": 1128695.48,
+   "difference": 0.0,
+   "match_rate": 0.9805,
+   "matched_lines": 251,
+   "bank_lines": 256
+  },
+  {
+   "account": "PAYROLL",
+   "gl_account": "1020",
+   "bank_end": 24816.55,
+   "gl_end": 24816.55,
+   "adjusted_bank": 24816.55,
+   "adjusted_book": 24816.55,
+   "difference": 0.0,
+   "match_rate": 1.0,
+   "matched_lines": 11,
+   "bank_lines": 11
+  }
+ ],
+ "items": [
+  {
+   "category": "Duplicate GL entry",
+   "account": "OPERATING",
+   "side": "book",
+   "date": "2026-10-09",
+   "description": "Vendor payment - Cloudhost Inc Bill-4471",
+   "amount": -3180.0,
+   "needs_attention": true,
+   "likely_cause": "Same memo and amount as JE-1267, which already cleared the bank once.",
+   "action": "Reverse JE-1268.",
+   "je_lines": [
+    [
+     "1010",
+     "Cash - Operating",
+     3180.0,
+     0
+    ],
+    [
+     "2000",
+     "Accounts Payable",
+     0,
+     3180.0
+    ]
+   ]
+  },
+  {
+   "category": "Amount mismatch",
+   "account": "OPERATING",
+   "side": "book",
+   "date": "2026-10-16",
+   "description": "Vendor payment - Office Depot Bill-6012  |  ACH DEBIT OFFICE DEPOT 552190",
+   "amount": -1524.0,
+   "needs_attention": true,
+   "likely_cause": "Transposition: GL 1,524.00 vs bank 1,254.00; difference 270.00 is divisible by 9 and digits match.",
+   "action": "Correct JE-1269 to the bank amount.",
+   "je_lines": [
+    [
+     "1010",
+     "Cash - Operating",
+     270.0,
+     0
+    ],
+    [
+     "2000",
+     "Accounts Payable",
+     0,
+     270.0
+    ]
+   ]
+  },
+  {
+   "category": "Outstanding check",
+   "account": "OPERATING",
+   "side": "book",
+   "date": "2026-10-22",
+   "description": "Check 10462 - Ballard Signs",
+   "amount": -3568.38,
+   "needs_attention": false,
+   "likely_cause": "Check issued 9 days before period end; not yet presented.",
+   "action": "Timing - confirm it clears next month.",
+   "je_lines": []
+  },
+  {
+   "category": "Outstanding check",
+   "account": "OPERATING",
+   "side": "book",
+   "date": "2026-10-23",
+   "description": "Check 10463 - Ballard Signs",
+   "amount": -1950.24,
+   "needs_attention": false,
+   "likely_cause": "Check issued 8 days before period end; not yet presented.",
+   "action": "Timing - confirm it clears next month.",
+   "je_lines": []
+  },
+  {
+   "category": "Outstanding check",
+   "account": "OPERATING",
+   "side": "book",
+   "date": "2026-10-27",
+   "description": "Check 10464 - Ballard Signs",
+   "amount": -418.88,
+   "needs_attention": false,
+   "likely_cause": "Check issued 4 days before period end; not yet presented.",
+   "action": "Timing - confirm it clears next month.",
+   "je_lines": []
+  },
+  {
+   "category": "Deposit in transit",
+   "account": "OPERATING",
+   "side": "book",
+   "date": "2026-10-28",
+   "description": "Customer payment - Lumen Energy INV-21443",
+   "amount": 14791.22,
+   "needs_attention": false,
+   "likely_cause": "Deposit booked in the last business days; bank has not posted it yet.",
+   "action": "Timing - confirm it posts in the first days of next month.",
+   "je_lines": []
+  },
+  {
+   "category": "Outstanding check",
+   "account": "OPERATING",
+   "side": "book",
+   "date": "2026-10-29",
+   "description": "Check 10465 - Capitol Hill Locksmith",
+   "amount": -1279.68,
+   "needs_attention": false,
+   "likely_cause": "Check issued 2 days before period end; not yet presented.",
+   "action": "Timing - confirm it clears next month.",
+   "je_lines": []
+  },
+  {
+   "category": "Deposit in transit",
+   "account": "OPERATING",
+   "side": "book",
+   "date": "2026-10-29",
+   "description": "Customer payment - Driftwood Media INV-23986",
+   "amount": 14763.27,
+   "needs_attention": false,
+   "likely_cause": "Deposit booked in the last business days; bank has not posted it yet.",
+   "action": "Timing - confirm it posts in the first days of next month.",
+   "je_lines": []
+  },
+  {
+   "category": "Outstanding check",
+   "account": "OPERATING",
+   "side": "book",
+   "date": "2026-10-30",
+   "description": "Check 10466 - Fremont Events",
+   "amount": -5042.55,
+   "needs_attention": false,
+   "likely_cause": "Check issued 1 days before period end; not yet presented.",
+   "action": "Timing - confirm it clears next month.",
+   "je_lines": []
+  },
+  {
+   "category": "Deposit in transit",
+   "account": "OPERATING",
+   "side": "book",
+   "date": "2026-10-30",
+   "description": "Customer payment - Maple Street Bakery INV-28584",
+   "amount": 5123.47,
+   "needs_attention": false,
+   "likely_cause": "Deposit booked in the last business days; bank has not posted it yet.",
+   "action": "Timing - confirm it posts in the first days of next month.",
+   "je_lines": []
+  },
+  {
+   "category": "Stale item",
+   "account": "OPERATING",
+   "side": "book",
+   "date": "2026-07-18",
+   "description": "Check 10233 - Olympic Supply Co",
+   "amount": -875.5,
+   "needs_attention": true,
+   "likely_cause": "Check outstanding 105 days (over 60).",
+   "action": "Contact payee; void and reissue or escheat per policy.",
+   "je_lines": []
+  },
+  {
+   "category": "Unbooked bank fee",
+   "account": "OPERATING",
+   "side": "bank",
+   "date": "2026-10-14",
+   "description": "OUTGOING WIRE FEE",
+   "amount": -30.0,
+   "needs_attention": true,
+   "likely_cause": "Bank charge not yet recorded in the GL.",
+   "action": "Book the fee.",
+   "je_lines": [
+    [
+     "6420",
+     "Bank Service Charges",
+     30.0,
+     0
+    ],
+    [
+     "1010",
+     "Cash - Operating",
+     0,
+     30.0
+    ]
+   ]
+  },
+  {
+   "category": "Unrecorded transaction",
+   "account": "OPERATING",
+   "side": "bank",
+   "date": "2026-10-22",
+   "description": "INCOMING WIRE FROM ACME HOLDINGS LLC REF FT26102214",
+   "amount": 25000.0,
+   "needs_attention": true,
+   "likely_cause": "Incoming wire from Acme Holdings LLC with no AR receipt or GL entry - likely an unapplied customer payment, investor funding or loan proceeds.",
+   "action": "Confirm purpose with Acme Holdings LLC / AR; park in suspense until applied.",
+   "je_lines": [
+    [
+     "1010",
+     "Cash - Operating",
+     25000.0,
+     0
+    ],
+    [
+     "2999",
+     "Suspense - Unidentified Cash",
+     0,
+     25000.0
+    ]
+   ]
+  },
+  {
+   "category": "Unbooked interest",
+   "account": "OPERATING",
+   "side": "bank",
+   "date": "2026-10-30",
+   "description": "INTEREST PAYMENT",
+   "amount": 212.37,
+   "needs_attention": true,
+   "likely_cause": "Interest credited by the bank, not yet recorded.",
+   "action": "Book interest income.",
+   "je_lines": [
+    [
+     "1010",
+     "Cash - Operating",
+     212.37,
+     0
+    ],
+    [
+     "4900",
+     "Interest Income",
+     0,
+     212.37
+    ]
+   ]
+  },
+  {
+   "category": "Unbooked bank fee",
+   "account": "OPERATING",
+   "side": "bank",
+   "date": "2026-10-30",
+   "description": "MONTHLY SERVICE FEE",
+   "amount": -45.0,
+   "needs_attention": true,
+   "likely_cause": "Bank charge not yet recorded in the GL.",
+   "action": "Book the fee.",
+   "je_lines": [
+    [
+     "6420",
+     "Bank Service Charges",
+     45.0,
+     0
+    ],
+    [
+     "1010",
+     "Cash - Operating",
+     0,
+     45.0
+    ]
+   ]
+  }
+ ]
+}

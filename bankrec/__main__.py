@@ -10,7 +10,7 @@ from pathlib import Path
 from bankrec import config as C
 from bankrec.classifier import TIMING
 from bankrec.pipeline import run
-from bankrec.report import write_audit_log, write_cash_position, write_workpaper
+from bankrec.report import write_audit_log, write_cash_position, write_summary_json, write_workpaper
 
 
 def main():
@@ -28,6 +28,7 @@ def main():
     write_workpaper(res, out / f"bank_rec_{period}.xlsx")
     write_cash_position(res, out / "cash_position.md")
     write_audit_log(res, out / "audit_log.csv")
+    write_summary_json(res, out / f"bank_rec_summary_{period}.json")
 
     print(f"\nBank Reconciliation - period ended {C.PERIOD_END}")
     print("-" * 64)

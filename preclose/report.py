@@ -185,3 +185,16 @@ def write_memo(findings, flux, path: Path):
     out += ["## Open pre-close findings (High)", ""]
     out += [f"- **{f.id} {f.check}** - {f.je_number} {f.counterparty}: {f.issue}" for f in high]
     path.write_text("\n".join(out) + "\n")
+
+
+def write_summary_json(findings, stats, flux, path: Path):
+    """Machine-readable summary other projects can consume (e.g. the controller-ai-team hub)."""
+    import json
+    fs = [dict(id=f.id, severity=f.severity, check=f.check, je_number=f.je_number, date=f.date,
+               account=f.account, counterparty=f.counterparty, amount=round(f.amount, 2), issue=f.issue, fix=f.fix,
+               reclass=[[a, n, round(dr, 2), round(cr, 2), m] for a, n, dr, cr, m in f.reclass]) for f in findings]
+    fl = [dict(account=f.account, name=f.name, type=f.type, current=f.current, prior=f.prior, var=f.var,
+               pct=None if f.pct is None else round(f.pct, 4), budget=f.budget, flagged=f.flagged,
+               commentary=f.commentary) for f in flux]
+    path.write_text(json.dumps({"module": "preclose", "period": G.PERIOD, "stats": stats,
+                                "findings": fs, "flux": fl}, indent=1))

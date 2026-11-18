@@ -198,3 +198,20 @@ def write_cash_position(res, path: Path):
               f"- Deposits in transit: {sum(i.amount for i in timing if i.category == K.DEPOSIT_IN_TRANSIT):,.2f}",
               f"- Outstanding checks: {sum(i.amount for i in timing if i.category == K.OUTSTANDING_CHECK):,.2f}"]
     path.write_text("\n".join(lines) + "\n")
+
+
+def write_summary_json(res, path: Path):
+    """Machine-readable summary other projects can consume (e.g. the controller-ai-team hub)."""
+    import json
+    accounts = [dict(account=r.account, gl_account=r.gl_account, bank_end=r.bank_end, gl_end=r.gl_end,
+                     adjusted_bank=r.adjusted_bank, adjusted_book=r.adjusted_book, difference=r.difference,
+                     match_rate=round(r.match_rate, 4), matched_lines=r.matched_lines, bank_lines=r.bank_lines)
+                for r in res.accounts.values()]
+    items = [dict(category=i.category, account=i.account, side=i.side, date=i.date.isoformat(),
+                  description=i.description, amount=round(i.amount, 2),
+                  needs_attention=i.category not in K.TIMING or i.category == K.STALE,
+                  likely_cause=i.likely_cause, action=i.action,
+                  je_lines=[[a, n, round(dr, 2), round(cr, 2)] for a, n, dr, cr in i.je_lines])
+             for i in res.items]
+    path.write_text(json.dumps({"module": "bankrec", "period_end": C.PERIOD_END.isoformat(),
+                                "matches": len(res.matches), "accounts": accounts, "items": items}, indent=1))

@@ -9,7 +9,7 @@ from pathlib import Path
 
 from preclose import flux, gl, preclose
 from preclose.llm import polish
-from preclose.report import write_memo, write_workbook
+from preclose.report import write_memo, write_summary_json, write_workbook
 
 
 def main():
@@ -28,6 +28,7 @@ def main():
     out.mkdir(exist_ok=True)
     write_workbook(findings, stats, fl, out / f"close_review_{gl.PERIOD}.xlsx")
     write_memo(findings, fl, out / "flux_commentary.md")
+    write_summary_json(findings, stats, fl, out / f"preclose_summary_{gl.PERIOD}.json")
 
     print(f"\nClose Review - {gl.PERIOD}")
     print("-" * 64)

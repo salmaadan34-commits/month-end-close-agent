@@ -1,0 +1,385 @@
+je_number,line,date,period,account,account_name,department,counterparty,invoice_number,service_period,memo,debit,credit,source,created_by,approved_by
+JE-202607-001,1,2026-07-01,2026-07,1200,Accounts Receivable,,Acme Robotics,INV-202607-664,2026-07,Subscription 2026-07 - Acme Robotics,13611,0,Revenue,billing_sync,auto
+JE-202607-001,2,2026-07-01,2026-07,4000,Subscription Revenue,,Acme Robotics,INV-202607-664,2026-07,Subscription 2026-07 - Acme Robotics,0,13611,Revenue,billing_sync,auto
+JE-202607-001,3,2026-07-01,2026-07,1200,Accounts Receivable,,Bluepeak Health,INV-202607-534,2026-07,Subscription 2026-07 - Bluepeak Health,7943,0,Revenue,billing_sync,auto
+JE-202607-001,4,2026-07-01,2026-07,4000,Subscription Revenue,,Bluepeak Health,INV-202607-534,2026-07,Subscription 2026-07 - Bluepeak Health,0,7943,Revenue,billing_sync,auto
+JE-202607-001,5,2026-07-01,2026-07,1200,Accounts Receivable,,Cobalt Logistics,INV-202607-160,2026-07,Subscription 2026-07 - Cobalt Logistics,15937,0,Revenue,billing_sync,auto
+JE-202607-001,6,2026-07-01,2026-07,4000,Subscription Revenue,,Cobalt Logistics,INV-202607-160,2026-07,Subscription 2026-07 - Cobalt Logistics,0,15937,Revenue,billing_sync,auto
+JE-202607-001,7,2026-07-01,2026-07,1200,Accounts Receivable,,Driftwood Media,INV-202607-946,2026-07,Subscription 2026-07 - Driftwood Media,24329,0,Revenue,billing_sync,auto
+JE-202607-001,8,2026-07-01,2026-07,4000,Subscription Revenue,,Driftwood Media,INV-202607-946,2026-07,Subscription 2026-07 - Driftwood Media,0,24329,Revenue,billing_sync,auto
+JE-202607-001,9,2026-07-01,2026-07,1200,Accounts Receivable,,Evergreen Dental,INV-202607-679,2026-07,Subscription 2026-07 - Evergreen Dental,4582,0,Revenue,billing_sync,auto
+JE-202607-001,10,2026-07-01,2026-07,4000,Subscription Revenue,,Evergreen Dental,INV-202607-679,2026-07,Subscription 2026-07 - Evergreen Dental,0,4582,Revenue,billing_sync,auto
+JE-202607-001,11,2026-07-01,2026-07,1200,Accounts Receivable,,Foxglove Labs,INV-202607-226,2026-07,Subscription 2026-07 - Foxglove Labs,5373,0,Revenue,billing_sync,auto
+JE-202607-001,12,2026-07-01,2026-07,4000,Subscription Revenue,,Foxglove Labs,INV-202607-226,2026-07,Subscription 2026-07 - Foxglove Labs,0,5373,Revenue,billing_sync,auto
+JE-202607-001,13,2026-07-01,2026-07,1200,Accounts Receivable,,Granite Analytics,INV-202607-328,2026-07,Subscription 2026-07 - Granite Analytics,20559,0,Revenue,billing_sync,auto
+JE-202607-001,14,2026-07-01,2026-07,4000,Subscription Revenue,,Granite Analytics,INV-202607-328,2026-07,Subscription 2026-07 - Granite Analytics,0,20559,Revenue,billing_sync,auto
+JE-202607-001,15,2026-07-01,2026-07,1200,Accounts Receivable,,Harborview Hotels,INV-202607-745,2026-07,Subscription 2026-07 - Harborview Hotels,6084,0,Revenue,billing_sync,auto
+JE-202607-001,16,2026-07-01,2026-07,4000,Subscription Revenue,,Harborview Hotels,INV-202607-745,2026-07,Subscription 2026-07 - Harborview Hotels,0,6084,Revenue,billing_sync,auto
+JE-202607-001,17,2026-07-01,2026-07,1200,Accounts Receivable,,Ironclad Security,INV-202607-742,2026-07,Subscription 2026-07 - Ironclad Security,14982,0,Revenue,billing_sync,auto
+JE-202607-001,18,2026-07-01,2026-07,4000,Subscription Revenue,,Ironclad Security,INV-202607-742,2026-07,Subscription 2026-07 - Ironclad Security,0,14982,Revenue,billing_sync,auto
+JE-202607-001,19,2026-07-01,2026-07,1200,Accounts Receivable,,Juniper Foods,INV-202607-696,2026-07,Subscription 2026-07 - Juniper Foods,22096,0,Revenue,billing_sync,auto
+JE-202607-001,20,2026-07-01,2026-07,4000,Subscription Revenue,,Juniper Foods,INV-202607-696,2026-07,Subscription 2026-07 - Juniper Foods,0,22096,Revenue,billing_sync,auto
+JE-202607-001,21,2026-07-01,2026-07,1200,Accounts Receivable,,Keystone Realty,INV-202607-163,2026-07,Subscription 2026-07 - Keystone Realty,4900,0,Revenue,billing_sync,auto
+JE-202607-001,22,2026-07-01,2026-07,4000,Subscription Revenue,,Keystone Realty,INV-202607-163,2026-07,Subscription 2026-07 - Keystone Realty,0,4900,Revenue,billing_sync,auto
+JE-202607-001,23,2026-07-01,2026-07,1200,Accounts Receivable,,Lumen Energy,INV-202607-690,2026-07,Subscription 2026-07 - Lumen Energy,19627,0,Revenue,billing_sync,auto
+JE-202607-001,24,2026-07-01,2026-07,4000,Subscription Revenue,,Lumen Energy,INV-202607-690,2026-07,Subscription 2026-07 - Lumen Energy,0,19627,Revenue,billing_sync,auto
+JE-202607-001,25,2026-07-01,2026-07,1200,Accounts Receivable,,Maple Street Bakery,INV-202607-699,2026-07,Subscription 2026-07 - Maple Street Bakery,10035,0,Revenue,billing_sync,auto
+JE-202607-001,26,2026-07-01,2026-07,4000,Subscription Revenue,,Maple Street Bakery,INV-202607-699,2026-07,Subscription 2026-07 - Maple Street Bakery,0,10035,Revenue,billing_sync,auto
+JE-202607-001,27,2026-07-01,2026-07,1200,Accounts Receivable,,Nimbus Software,INV-202607-506,2026-07,Subscription 2026-07 - Nimbus Software,4228,0,Revenue,billing_sync,auto
+JE-202607-001,28,2026-07-01,2026-07,4000,Subscription Revenue,,Nimbus Software,INV-202607-506,2026-07,Subscription 2026-07 - Nimbus Software,0,4228,Revenue,billing_sync,auto
+JE-202607-001,29,2026-07-01,2026-07,1200,Accounts Receivable,,Orchid Retail,INV-202607-150,2026-07,Subscription 2026-07 - Orchid Retail,5816,0,Revenue,billing_sync,auto
+JE-202607-001,30,2026-07-01,2026-07,4000,Subscription Revenue,,Orchid Retail,INV-202607-150,2026-07,Subscription 2026-07 - Orchid Retail,0,5816,Revenue,billing_sync,auto
+JE-202607-001,31,2026-07-01,2026-07,1200,Accounts Receivable,,Pinecrest Schools,INV-202607-326,2026-07,Subscription 2026-07 - Pinecrest Schools,17209,0,Revenue,billing_sync,auto
+JE-202607-001,32,2026-07-01,2026-07,4000,Subscription Revenue,,Pinecrest Schools,INV-202607-326,2026-07,Subscription 2026-07 - Pinecrest Schools,0,17209,Revenue,billing_sync,auto
+JE-202607-001,33,2026-07-01,2026-07,1200,Accounts Receivable,,Quarry Construction,INV-202607-147,2026-07,Subscription 2026-07 - Quarry Construction,16702,0,Revenue,billing_sync,auto
+JE-202607-001,34,2026-07-01,2026-07,4000,Subscription Revenue,,Quarry Construction,INV-202607-147,2026-07,Subscription 2026-07 - Quarry Construction,0,16702,Revenue,billing_sync,auto
+JE-202607-001,35,2026-07-01,2026-07,1200,Accounts Receivable,,Redwood Capital,INV-202607-670,2026-07,Subscription 2026-07 - Redwood Capital,5289,0,Revenue,billing_sync,auto
+JE-202607-001,36,2026-07-01,2026-07,4000,Subscription Revenue,,Redwood Capital,INV-202607-670,2026-07,Subscription 2026-07 - Redwood Capital,0,5289,Revenue,billing_sync,auto
+JE-202607-001,37,2026-07-01,2026-07,1200,Accounts Receivable,,Summit Outdoor,INV-202607-979,2026-07,Subscription 2026-07 - Summit Outdoor,10886,0,Revenue,billing_sync,auto
+JE-202607-001,38,2026-07-01,2026-07,4000,Subscription Revenue,,Summit Outdoor,INV-202607-979,2026-07,Subscription 2026-07 - Summit Outdoor,0,10886,Revenue,billing_sync,auto
+JE-202607-001,39,2026-07-01,2026-07,1200,Accounts Receivable,,Tidewater Marine,INV-202607-236,2026-07,Subscription 2026-07 - Tidewater Marine,5972,0,Revenue,billing_sync,auto
+JE-202607-001,40,2026-07-01,2026-07,4000,Subscription Revenue,,Tidewater Marine,INV-202607-236,2026-07,Subscription 2026-07 - Tidewater Marine,0,5972,Revenue,billing_sync,auto
+JE-202607-002,1,2026-07-31,2026-07,6000,Salaries & Wages,Engineering,Gusto,,2026-07,Payroll 2026-07 - Engineering,180000,0,Payroll,gusto_sync,auto
+JE-202607-002,2,2026-07-31,2026-07,6010,Payroll Taxes,Engineering,Gusto,,2026-07,Payroll 2026-07 - Engineering,13770.0,0,Payroll,gusto_sync,auto
+JE-202607-002,3,2026-07-31,2026-07,6020,Employee Benefits,Engineering,Gusto,,2026-07,Payroll 2026-07 - Engineering,21600.0,0,Payroll,gusto_sync,auto
+JE-202607-002,4,2026-07-31,2026-07,2200,Accrued Payroll,,Gusto,,2026-07,Payroll 2026-07 - Engineering,0,215370.0,Payroll,gusto_sync,auto
+JE-202607-003,1,2026-07-31,2026-07,6000,Salaries & Wages,Sales,Gusto,,2026-07,Payroll 2026-07 - Sales,90000,0,Payroll,gusto_sync,auto
+JE-202607-003,2,2026-07-31,2026-07,6010,Payroll Taxes,Sales,Gusto,,2026-07,Payroll 2026-07 - Sales,6885.0,0,Payroll,gusto_sync,auto
+JE-202607-003,3,2026-07-31,2026-07,6020,Employee Benefits,Sales,Gusto,,2026-07,Payroll 2026-07 - Sales,10800.0,0,Payroll,gusto_sync,auto
+JE-202607-003,4,2026-07-31,2026-07,2200,Accrued Payroll,,Gusto,,2026-07,Payroll 2026-07 - Sales,0,107685.0,Payroll,gusto_sync,auto
+JE-202607-004,1,2026-07-31,2026-07,6000,Salaries & Wages,Marketing,Gusto,,2026-07,Payroll 2026-07 - Marketing,60000,0,Payroll,gusto_sync,auto
+JE-202607-004,2,2026-07-31,2026-07,6010,Payroll Taxes,Marketing,Gusto,,2026-07,Payroll 2026-07 - Marketing,4590.0,0,Payroll,gusto_sync,auto
+JE-202607-004,3,2026-07-31,2026-07,6020,Employee Benefits,Marketing,Gusto,,2026-07,Payroll 2026-07 - Marketing,7200.0,0,Payroll,gusto_sync,auto
+JE-202607-004,4,2026-07-31,2026-07,2200,Accrued Payroll,,Gusto,,2026-07,Payroll 2026-07 - Marketing,0,71790.0,Payroll,gusto_sync,auto
+JE-202607-005,1,2026-07-31,2026-07,6000,Salaries & Wages,Customer Success,Gusto,,2026-07,Payroll 2026-07 - Customer Success,50000,0,Payroll,gusto_sync,auto
+JE-202607-005,2,2026-07-31,2026-07,6010,Payroll Taxes,Customer Success,Gusto,,2026-07,Payroll 2026-07 - Customer Success,3825.0,0,Payroll,gusto_sync,auto
+JE-202607-005,3,2026-07-31,2026-07,6020,Employee Benefits,Customer Success,Gusto,,2026-07,Payroll 2026-07 - Customer Success,6000.0,0,Payroll,gusto_sync,auto
+JE-202607-005,4,2026-07-31,2026-07,2200,Accrued Payroll,,Gusto,,2026-07,Payroll 2026-07 - Customer Success,0,59825.0,Payroll,gusto_sync,auto
+JE-202607-006,1,2026-07-31,2026-07,6000,Salaries & Wages,G&A,Gusto,,2026-07,Payroll 2026-07 - G&A,70000,0,Payroll,gusto_sync,auto
+JE-202607-006,2,2026-07-31,2026-07,6010,Payroll Taxes,G&A,Gusto,,2026-07,Payroll 2026-07 - G&A,5355.0,0,Payroll,gusto_sync,auto
+JE-202607-006,3,2026-07-31,2026-07,6020,Employee Benefits,G&A,Gusto,,2026-07,Payroll 2026-07 - G&A,8400.0,0,Payroll,gusto_sync,auto
+JE-202607-006,4,2026-07-31,2026-07,2200,Accrued Payroll,,Gusto,,2026-07,Payroll 2026-07 - G&A,0,83755.0,Payroll,gusto_sync,auto
+JE-202607-007,1,2026-07-31,2026-07,6000,Salaries & Wages,G&A,,,2026-07,Accrued bonus,10000,0,Manual,mlee,salz
+JE-202607-007,2,2026-07-31,2026-07,2100,Accrued Liabilities,,,,2026-07,Accrued bonus,0,10000,Manual,mlee,salz
+JE-202607-008,1,2026-07-24,2026-07,5000,Hosting (COGS),Engineering,Amazon Web Services,AWS-20260747,2026-07,Cloud hosting,44781.68,0,AP,ap_bot,auto
+JE-202607-008,2,2026-07-24,2026-07,2000,Accounts Payable,,Amazon Web Services,AWS-20260747,2026-07,Cloud hosting,0,44781.68,AP,ap_bot,auto
+JE-202607-009,1,2026-07-24,2026-07,6100,Software Subscriptions,Sales,Salesforce,SF-20260725,2026-07,CRM licenses,6226.38,0,AP,ap_bot,auto
+JE-202607-009,2,2026-07-24,2026-07,2000,Accounts Payable,,Salesforce,SF-20260725,2026-07,CRM licenses,0,6226.38,AP,ap_bot,auto
+JE-202607-010,1,2026-07-27,2026-07,6100,Software Subscriptions,Marketing,Adobe,ADB-20260797,2026-07,Creative Cloud licenses,1373.18,0,AP,ap_bot,auto
+JE-202607-010,2,2026-07-27,2026-07,2000,Accounts Payable,,Adobe,ADB-20260797,2026-07,Creative Cloud licenses,0,1373.18,AP,ap_bot,auto
+JE-202607-011,1,2026-07-16,2026-07,6100,Software Subscriptions,G&A,Slack,SLK-20260783,2026-07,Slack Business+,2117.5,0,AP,ap_bot,auto
+JE-202607-011,2,2026-07-16,2026-07,2000,Accounts Payable,,Slack,SLK-20260783,2026-07,Slack Business+,0,2117.5,AP,ap_bot,auto
+JE-202607-012,1,2026-07-03,2026-07,6100,Software Subscriptions,G&A,Zoom,ZM-20260722,2026-07,Zoom licenses,902.58,0,AP,ap_bot,auto
+JE-202607-012,2,2026-07-03,2026-07,2000,Accounts Payable,,Zoom,ZM-20260722,2026-07,Zoom licenses,0,902.58,AP,ap_bot,auto
+JE-202607-013,1,2026-07-09,2026-07,6100,Software Subscriptions,Marketing,HubSpot,HS-20260782,2026-07,Marketing Hub,3699.59,0,AP,ap_bot,auto
+JE-202607-013,2,2026-07-09,2026-07,2000,Accounts Payable,,HubSpot,HS-20260782,2026-07,Marketing Hub,0,3699.59,AP,ap_bot,auto
+JE-202607-014,1,2026-07-20,2026-07,6100,Software Subscriptions,G&A,DocuSign,DS-20260773,2026-07,eSignature licenses,657.04,0,AP,ap_bot,auto
+JE-202607-014,2,2026-07-20,2026-07,2000,Accounts Payable,,DocuSign,DS-20260773,2026-07,eSignature licenses,0,657.04,AP,ap_bot,auto
+JE-202607-015,1,2026-07-21,2026-07,6200,Rent,G&A,WeWork,WW-20260750,2026-07,Office rent - Seattle,18461.82,0,AP,ap_bot,auto
+JE-202607-015,2,2026-07-21,2026-07,2000,Accounts Payable,,WeWork,WW-20260750,2026-07,Office rent - Seattle,0,18461.82,AP,ap_bot,auto
+JE-202607-016,1,2026-07-08,2026-07,6300,Marketing - Advertising,Marketing,Google Ads,GA-20260756,2026-07,Search ads,11855.83,0,AP,ap_bot,auto
+JE-202607-016,2,2026-07-08,2026-07,2000,Accounts Payable,,Google Ads,GA-20260756,2026-07,Search ads,0,11855.83,AP,ap_bot,auto
+JE-202607-017,1,2026-07-03,2026-07,6400,Professional Fees,G&A,Pemberton Legal LLP,PL-20260799,2026-07,Legal retainer,9659.5,0,AP,ap_bot,auto
+JE-202607-017,2,2026-07-03,2026-07,2000,Accounts Payable,,Pemberton Legal LLP,PL-20260799,2026-07,Legal retainer,0,9659.5,AP,ap_bot,auto
+JE-202607-018,1,2026-07-22,2026-07,6500,Office Supplies,G&A,Staples,STP-20260783,2026-07,Office supplies,1235.02,0,AP,ap_bot,auto
+JE-202607-018,2,2026-07-22,2026-07,2000,Accounts Payable,,Staples,STP-20260783,2026-07,Office supplies,0,1235.02,AP,ap_bot,auto
+JE-202607-019,1,2026-07-14,2026-07,6500,Office Supplies,G&A,Uline,UL-20260753,2026-07,Shipping supplies,608.26,0,AP,ap_bot,auto
+JE-202607-019,2,2026-07-14,2026-07,2000,Accounts Payable,,Uline,UL-20260753,2026-07,Shipping supplies,0,608.26,AP,ap_bot,auto
+JE-202607-020,1,2026-07-06,2026-07,6600,Travel & Meals,Sales,Navan Travel,NV-20260787,2026-07,Sales travel,3600.84,0,AP,ap_bot,auto
+JE-202607-020,2,2026-07-06,2026-07,2000,Accounts Payable,,Navan Travel,NV-20260787,2026-07,Sales travel,0,3600.84,AP,ap_bot,auto
+JE-202607-021,1,2026-07-15,2026-07,6700,Utilities & Telecom,G&A,Comcast Business,CMC-20260775,2026-07,Internet service,447.79,0,AP,ap_bot,auto
+JE-202607-021,2,2026-07-15,2026-07,2000,Accounts Payable,,Comcast Business,CMC-20260775,2026-07,Internet service,0,447.79,AP,ap_bot,auto
+JE-202607-022,1,2026-07-20,2026-07,6700,Utilities & Telecom,G&A,Puget Sound Energy,PSE-20260729,2026-07,Electricity,1128.6,0,AP,ap_bot,auto
+JE-202607-022,2,2026-07-20,2026-07,2000,Accounts Payable,,Puget Sound Energy,PSE-20260729,2026-07,Electricity,0,1128.6,AP,ap_bot,auto
+JE-202608-001,1,2026-08-01,2026-08,1200,Accounts Receivable,,Acme Robotics,INV-202608-140,2026-08,Subscription 2026-08 - Acme Robotics,13611,0,Revenue,billing_sync,auto
+JE-202608-001,2,2026-08-01,2026-08,4000,Subscription Revenue,,Acme Robotics,INV-202608-140,2026-08,Subscription 2026-08 - Acme Robotics,0,13611,Revenue,billing_sync,auto
+JE-202608-001,3,2026-08-01,2026-08,1200,Accounts Receivable,,Bluepeak Health,INV-202608-784,2026-08,Subscription 2026-08 - Bluepeak Health,7943,0,Revenue,billing_sync,auto
+JE-202608-001,4,2026-08-01,2026-08,4000,Subscription Revenue,,Bluepeak Health,INV-202608-784,2026-08,Subscription 2026-08 - Bluepeak Health,0,7943,Revenue,billing_sync,auto
+JE-202608-001,5,2026-08-01,2026-08,1200,Accounts Receivable,,Cobalt Logistics,INV-202608-179,2026-08,Subscription 2026-08 - Cobalt Logistics,15937,0,Revenue,billing_sync,auto
+JE-202608-001,6,2026-08-01,2026-08,4000,Subscription Revenue,,Cobalt Logistics,INV-202608-179,2026-08,Subscription 2026-08 - Cobalt Logistics,0,15937,Revenue,billing_sync,auto
+JE-202608-001,7,2026-08-01,2026-08,1200,Accounts Receivable,,Driftwood Media,INV-202608-882,2026-08,Subscription 2026-08 - Driftwood Media,24329,0,Revenue,billing_sync,auto
+JE-202608-001,8,2026-08-01,2026-08,4000,Subscription Revenue,,Driftwood Media,INV-202608-882,2026-08,Subscription 2026-08 - Driftwood Media,0,24329,Revenue,billing_sync,auto
+JE-202608-001,9,2026-08-01,2026-08,1200,Accounts Receivable,,Evergreen Dental,INV-202608-671,2026-08,Subscription 2026-08 - Evergreen Dental,4582,0,Revenue,billing_sync,auto
+JE-202608-001,10,2026-08-01,2026-08,4000,Subscription Revenue,,Evergreen Dental,INV-202608-671,2026-08,Subscription 2026-08 - Evergreen Dental,0,4582,Revenue,billing_sync,auto
+JE-202608-001,11,2026-08-01,2026-08,1200,Accounts Receivable,,Foxglove Labs,INV-202608-686,2026-08,Subscription 2026-08 - Foxglove Labs,5373,0,Revenue,billing_sync,auto
+JE-202608-001,12,2026-08-01,2026-08,4000,Subscription Revenue,,Foxglove Labs,INV-202608-686,2026-08,Subscription 2026-08 - Foxglove Labs,0,5373,Revenue,billing_sync,auto
+JE-202608-001,13,2026-08-01,2026-08,1200,Accounts Receivable,,Granite Analytics,INV-202608-908,2026-08,Subscription 2026-08 - Granite Analytics,20559,0,Revenue,billing_sync,auto
+JE-202608-001,14,2026-08-01,2026-08,4000,Subscription Revenue,,Granite Analytics,INV-202608-908,2026-08,Subscription 2026-08 - Granite Analytics,0,20559,Revenue,billing_sync,auto
+JE-202608-001,15,2026-08-01,2026-08,1200,Accounts Receivable,,Harborview Hotels,INV-202608-996,2026-08,Subscription 2026-08 - Harborview Hotels,6084,0,Revenue,billing_sync,auto
+JE-202608-001,16,2026-08-01,2026-08,4000,Subscription Revenue,,Harborview Hotels,INV-202608-996,2026-08,Subscription 2026-08 - Harborview Hotels,0,6084,Revenue,billing_sync,auto
+JE-202608-001,17,2026-08-01,2026-08,1200,Accounts Receivable,,Ironclad Security,INV-202608-937,2026-08,Subscription 2026-08 - Ironclad Security,14982,0,Revenue,billing_sync,auto
+JE-202608-001,18,2026-08-01,2026-08,4000,Subscription Revenue,,Ironclad Security,INV-202608-937,2026-08,Subscription 2026-08 - Ironclad Security,0,14982,Revenue,billing_sync,auto
+JE-202608-001,19,2026-08-01,2026-08,1200,Accounts Receivable,,Juniper Foods,INV-202608-421,2026-08,Subscription 2026-08 - Juniper Foods,22096,0,Revenue,billing_sync,auto
+JE-202608-001,20,2026-08-01,2026-08,4000,Subscription Revenue,,Juniper Foods,INV-202608-421,2026-08,Subscription 2026-08 - Juniper Foods,0,22096,Revenue,billing_sync,auto
+JE-202608-001,21,2026-08-01,2026-08,1200,Accounts Receivable,,Keystone Realty,INV-202608-448,2026-08,Subscription 2026-08 - Keystone Realty,4900,0,Revenue,billing_sync,auto
+JE-202608-001,22,2026-08-01,2026-08,4000,Subscription Revenue,,Keystone Realty,INV-202608-448,2026-08,Subscription 2026-08 - Keystone Realty,0,4900,Revenue,billing_sync,auto
+JE-202608-001,23,2026-08-01,2026-08,1200,Accounts Receivable,,Lumen Energy,INV-202608-811,2026-08,Subscription 2026-08 - Lumen Energy,19627,0,Revenue,billing_sync,auto
+JE-202608-001,24,2026-08-01,2026-08,4000,Subscription Revenue,,Lumen Energy,INV-202608-811,2026-08,Subscription 2026-08 - Lumen Energy,0,19627,Revenue,billing_sync,auto
+JE-202608-001,25,2026-08-01,2026-08,1200,Accounts Receivable,,Maple Street Bakery,INV-202608-458,2026-08,Subscription 2026-08 - Maple Street Bakery,10035,0,Revenue,billing_sync,auto
+JE-202608-001,26,2026-08-01,2026-08,4000,Subscription Revenue,,Maple Street Bakery,INV-202608-458,2026-08,Subscription 2026-08 - Maple Street Bakery,0,10035,Revenue,billing_sync,auto
+JE-202608-001,27,2026-08-01,2026-08,1200,Accounts Receivable,,Nimbus Software,INV-202608-708,2026-08,Subscription 2026-08 - Nimbus Software,4228,0,Revenue,billing_sync,auto
+JE-202608-001,28,2026-08-01,2026-08,4000,Subscription Revenue,,Nimbus Software,INV-202608-708,2026-08,Subscription 2026-08 - Nimbus Software,0,4228,Revenue,billing_sync,auto
+JE-202608-001,29,2026-08-01,2026-08,1200,Accounts Receivable,,Orchid Retail,INV-202608-608,2026-08,Subscription 2026-08 - Orchid Retail,5816,0,Revenue,billing_sync,auto
+JE-202608-001,30,2026-08-01,2026-08,4000,Subscription Revenue,,Orchid Retail,INV-202608-608,2026-08,Subscription 2026-08 - Orchid Retail,0,5816,Revenue,billing_sync,auto
+JE-202608-001,31,2026-08-01,2026-08,1200,Accounts Receivable,,Pinecrest Schools,INV-202608-693,2026-08,Subscription 2026-08 - Pinecrest Schools,17209,0,Revenue,billing_sync,auto
+JE-202608-001,32,2026-08-01,2026-08,4000,Subscription Revenue,,Pinecrest Schools,INV-202608-693,2026-08,Subscription 2026-08 - Pinecrest Schools,0,17209,Revenue,billing_sync,auto
+JE-202608-001,33,2026-08-01,2026-08,1200,Accounts Receivable,,Quarry Construction,INV-202608-916,2026-08,Subscription 2026-08 - Quarry Construction,16702,0,Revenue,billing_sync,auto
+JE-202608-001,34,2026-08-01,2026-08,4000,Subscription Revenue,,Quarry Construction,INV-202608-916,2026-08,Subscription 2026-08 - Quarry Construction,0,16702,Revenue,billing_sync,auto
+JE-202608-001,35,2026-08-01,2026-08,1200,Accounts Receivable,,Redwood Capital,INV-202608-567,2026-08,Subscription 2026-08 - Redwood Capital,5289,0,Revenue,billing_sync,auto
+JE-202608-001,36,2026-08-01,2026-08,4000,Subscription Revenue,,Redwood Capital,INV-202608-567,2026-08,Subscription 2026-08 - Redwood Capital,0,5289,Revenue,billing_sync,auto
+JE-202608-001,37,2026-08-01,2026-08,1200,Accounts Receivable,,Summit Outdoor,INV-202608-170,2026-08,Subscription 2026-08 - Summit Outdoor,10886,0,Revenue,billing_sync,auto
+JE-202608-001,38,2026-08-01,2026-08,4000,Subscription Revenue,,Summit Outdoor,INV-202608-170,2026-08,Subscription 2026-08 - Summit Outdoor,0,10886,Revenue,billing_sync,auto
+JE-202608-001,39,2026-08-01,2026-08,1200,Accounts Receivable,,Tidewater Marine,INV-202608-960,2026-08,Subscription 2026-08 - Tidewater Marine,5972,0,Revenue,billing_sync,auto
+JE-202608-001,40,2026-08-01,2026-08,4000,Subscription Revenue,,Tidewater Marine,INV-202608-960,2026-08,Subscription 2026-08 - Tidewater Marine,0,5972,Revenue,billing_sync,auto
+JE-202608-002,1,2026-09-01,2026-08,6000,Salaries & Wages,Engineering,Gusto,,2026-08,Payroll 2026-08 - Engineering,180000,0,Payroll,gusto_sync,auto
+JE-202608-002,2,2026-09-01,2026-08,6010,Payroll Taxes,Engineering,Gusto,,2026-08,Payroll 2026-08 - Engineering,13770.0,0,Payroll,gusto_sync,auto
+JE-202608-002,3,2026-09-01,2026-08,6020,Employee Benefits,Engineering,Gusto,,2026-08,Payroll 2026-08 - Engineering,21600.0,0,Payroll,gusto_sync,auto
+JE-202608-002,4,2026-09-01,2026-08,2200,Accrued Payroll,,Gusto,,2026-08,Payroll 2026-08 - Engineering,0,215370.0,Payroll,gusto_sync,auto
+JE-202608-003,1,2026-09-01,2026-08,6000,Salaries & Wages,Sales,Gusto,,2026-08,Payroll 2026-08 - Sales,90000,0,Payroll,gusto_sync,auto
+JE-202608-003,2,2026-09-01,2026-08,6010,Payroll Taxes,Sales,Gusto,,2026-08,Payroll 2026-08 - Sales,6885.0,0,Payroll,gusto_sync,auto
+JE-202608-003,3,2026-09-01,2026-08,6020,Employee Benefits,Sales,Gusto,,2026-08,Payroll 2026-08 - Sales,10800.0,0,Payroll,gusto_sync,auto
+JE-202608-003,4,2026-09-01,2026-08,2200,Accrued Payroll,,Gusto,,2026-08,Payroll 2026-08 - Sales,0,107685.0,Payroll,gusto_sync,auto
+JE-202608-004,1,2026-09-01,2026-08,6000,Salaries & Wages,Marketing,Gusto,,2026-08,Payroll 2026-08 - Marketing,60000,0,Payroll,gusto_sync,auto
+JE-202608-004,2,2026-09-01,2026-08,6010,Payroll Taxes,Marketing,Gusto,,2026-08,Payroll 2026-08 - Marketing,4590.0,0,Payroll,gusto_sync,auto
+JE-202608-004,3,2026-09-01,2026-08,6020,Employee Benefits,Marketing,Gusto,,2026-08,Payroll 2026-08 - Marketing,7200.0,0,Payroll,gusto_sync,auto
+JE-202608-004,4,2026-09-01,2026-08,2200,Accrued Payroll,,Gusto,,2026-08,Payroll 2026-08 - Marketing,0,71790.0,Payroll,gusto_sync,auto
+JE-202608-005,1,2026-09-01,2026-08,6000,Salaries & Wages,Customer Success,Gusto,,2026-08,Payroll 2026-08 - Customer Success,50000,0,Payroll,gusto_sync,auto
+JE-202608-005,2,2026-09-01,2026-08,6010,Payroll Taxes,Customer Success,Gusto,,2026-08,Payroll 2026-08 - Customer Success,3825.0,0,Payroll,gusto_sync,auto
+JE-202608-005,3,2026-09-01,2026-08,6020,Employee Benefits,Customer Success,Gusto,,2026-08,Payroll 2026-08 - Customer Success,6000.0,0,Payroll,gusto_sync,auto
+JE-202608-005,4,2026-09-01,2026-08,2200,Accrued Payroll,,Gusto,,2026-08,Payroll 2026-08 - Customer Success,0,59825.0,Payroll,gusto_sync,auto
+JE-202608-006,1,2026-09-01,2026-08,6000,Salaries & Wages,G&A,Gusto,,2026-08,Payroll 2026-08 - G&A,70000,0,Payroll,gusto_sync,auto
+JE-202608-006,2,2026-09-01,2026-08,6010,Payroll Taxes,G&A,Gusto,,2026-08,Payroll 2026-08 - G&A,5355.0,0,Payroll,gusto_sync,auto
+JE-202608-006,3,2026-09-01,2026-08,6020,Employee Benefits,G&A,Gusto,,2026-08,Payroll 2026-08 - G&A,8400.0,0,Payroll,gusto_sync,auto
+JE-202608-006,4,2026-09-01,2026-08,2200,Accrued Payroll,,Gusto,,2026-08,Payroll 2026-08 - G&A,0,83755.0,Payroll,gusto_sync,auto
+JE-202608-007,1,2026-09-01,2026-08,6000,Salaries & Wages,G&A,,,2026-08,Accrued bonus,10000,0,Manual,mlee,salz
+JE-202608-007,2,2026-09-01,2026-08,2100,Accrued Liabilities,,,,2026-08,Accrued bonus,0,10000,Manual,mlee,salz
+JE-202608-008,1,2026-08-24,2026-08,5000,Hosting (COGS),Engineering,Amazon Web Services,AWS-20260821,2026-08,Cloud hosting,46200.64,0,AP,ap_bot,auto
+JE-202608-008,2,2026-08-24,2026-08,2000,Accounts Payable,,Amazon Web Services,AWS-20260821,2026-08,Cloud hosting,0,46200.64,AP,ap_bot,auto
+JE-202608-009,1,2026-08-04,2026-08,6100,Software Subscriptions,Sales,Salesforce,SF-20260899,2026-08,CRM licenses,6261.06,0,AP,ap_bot,auto
+JE-202608-009,2,2026-08-04,2026-08,2000,Accounts Payable,,Salesforce,SF-20260899,2026-08,CRM licenses,0,6261.06,AP,ap_bot,auto
+JE-202608-010,1,2026-08-27,2026-08,6100,Software Subscriptions,Marketing,Adobe,ADB-20260899,2026-08,Creative Cloud licenses,1384.01,0,AP,ap_bot,auto
+JE-202608-010,2,2026-08-27,2026-08,2000,Accounts Payable,,Adobe,ADB-20260899,2026-08,Creative Cloud licenses,0,1384.01,AP,ap_bot,auto
+JE-202608-011,1,2026-08-14,2026-08,6100,Software Subscriptions,G&A,Slack,SLK-20260897,2026-08,Slack Business+,2140.56,0,AP,ap_bot,auto
+JE-202608-011,2,2026-08-14,2026-08,2000,Accounts Payable,,Slack,SLK-20260897,2026-08,Slack Business+,0,2140.56,AP,ap_bot,auto
+JE-202608-012,1,2026-08-18,2026-08,6100,Software Subscriptions,G&A,Zoom,ZM-20260859,2026-08,Zoom licenses,920.9,0,AP,ap_bot,auto
+JE-202608-012,2,2026-08-18,2026-08,2000,Accounts Payable,,Zoom,ZM-20260859,2026-08,Zoom licenses,0,920.9,AP,ap_bot,auto
+JE-202608-013,1,2026-08-18,2026-08,6100,Software Subscriptions,Marketing,HubSpot,HS-20260812,2026-08,Marketing Hub,3900.47,0,AP,ap_bot,auto
+JE-202608-013,2,2026-08-18,2026-08,2000,Accounts Payable,,HubSpot,HS-20260812,2026-08,Marketing Hub,0,3900.47,AP,ap_bot,auto
+JE-202608-014,1,2026-08-24,2026-08,6100,Software Subscriptions,G&A,DocuSign,DS-20260831,2026-08,eSignature licenses,654.33,0,AP,ap_bot,auto
+JE-202608-014,2,2026-08-24,2026-08,2000,Accounts Payable,,DocuSign,DS-20260831,2026-08,eSignature licenses,0,654.33,AP,ap_bot,auto
+JE-202608-015,1,2026-08-14,2026-08,6200,Rent,G&A,WeWork,WW-20260817,2026-08,Office rent - Seattle,18187.21,0,AP,ap_bot,auto
+JE-202608-015,2,2026-08-14,2026-08,2000,Accounts Payable,,WeWork,WW-20260817,2026-08,Office rent - Seattle,0,18187.21,AP,ap_bot,auto
+JE-202608-016,1,2026-08-19,2026-08,6300,Marketing - Advertising,Marketing,Google Ads,GA-20260826,2026-08,Search ads,12171.62,0,AP,ap_bot,auto
+JE-202608-016,2,2026-08-19,2026-08,2000,Accounts Payable,,Google Ads,GA-20260826,2026-08,Search ads,0,12171.62,AP,ap_bot,auto
+JE-202608-017,1,2026-08-24,2026-08,6400,Professional Fees,G&A,Pemberton Legal LLP,PL-20260860,2026-08,Legal retainer,9737.59,0,AP,ap_bot,auto
+JE-202608-017,2,2026-08-24,2026-08,2000,Accounts Payable,,Pemberton Legal LLP,PL-20260860,2026-08,Legal retainer,0,9737.59,AP,ap_bot,auto
+JE-202608-018,1,2026-08-19,2026-08,6500,Office Supplies,G&A,Staples,STP-20260820,2026-08,Office supplies,1224.98,0,AP,ap_bot,auto
+JE-202608-018,2,2026-08-19,2026-08,2000,Accounts Payable,,Staples,STP-20260820,2026-08,Office supplies,0,1224.98,AP,ap_bot,auto
+JE-202608-019,1,2026-08-07,2026-08,6500,Office Supplies,G&A,Uline,UL-20260880,2026-08,Shipping supplies,592.0,0,AP,ap_bot,auto
+JE-202608-019,2,2026-08-07,2026-08,2000,Accounts Payable,,Uline,UL-20260880,2026-08,Shipping supplies,0,592.0,AP,ap_bot,auto
+JE-202608-020,1,2026-08-13,2026-08,6600,Travel & Meals,Sales,Navan Travel,NV-20260865,2026-08,Sales travel,3576.44,0,AP,ap_bot,auto
+JE-202608-020,2,2026-08-13,2026-08,2000,Accounts Payable,,Navan Travel,NV-20260865,2026-08,Sales travel,0,3576.44,AP,ap_bot,auto
+JE-202608-021,1,2026-08-19,2026-08,6700,Utilities & Telecom,G&A,Comcast Business,CMC-20260863,2026-08,Internet service,463.13,0,AP,ap_bot,auto
+JE-202608-021,2,2026-08-19,2026-08,2000,Accounts Payable,,Comcast Business,CMC-20260863,2026-08,Internet service,0,463.13,AP,ap_bot,auto
+JE-202608-022,1,2026-08-10,2026-08,6700,Utilities & Telecom,G&A,Puget Sound Energy,PSE-20260839,2026-08,Electricity,1076.96,0,AP,ap_bot,auto
+JE-202608-022,2,2026-08-10,2026-08,2000,Accounts Payable,,Puget Sound Energy,PSE-20260839,2026-08,Electricity,0,1076.96,AP,ap_bot,auto
+JE-202609-001,1,2026-09-01,2026-09,1200,Accounts Receivable,,Acme Robotics,INV-202609-254,2026-09,Subscription 2026-09 - Acme Robotics,13611,0,Revenue,billing_sync,auto
+JE-202609-001,2,2026-09-01,2026-09,4000,Subscription Revenue,,Acme Robotics,INV-202609-254,2026-09,Subscription 2026-09 - Acme Robotics,0,13611,Revenue,billing_sync,auto
+JE-202609-001,3,2026-09-01,2026-09,1200,Accounts Receivable,,Bluepeak Health,INV-202609-337,2026-09,Subscription 2026-09 - Bluepeak Health,7943,0,Revenue,billing_sync,auto
+JE-202609-001,4,2026-09-01,2026-09,4000,Subscription Revenue,,Bluepeak Health,INV-202609-337,2026-09,Subscription 2026-09 - Bluepeak Health,0,7943,Revenue,billing_sync,auto
+JE-202609-001,5,2026-09-01,2026-09,1200,Accounts Receivable,,Cobalt Logistics,INV-202609-774,2026-09,Subscription 2026-09 - Cobalt Logistics,15937,0,Revenue,billing_sync,auto
+JE-202609-001,6,2026-09-01,2026-09,4000,Subscription Revenue,,Cobalt Logistics,INV-202609-774,2026-09,Subscription 2026-09 - Cobalt Logistics,0,15937,Revenue,billing_sync,auto
+JE-202609-001,7,2026-09-01,2026-09,1200,Accounts Receivable,,Driftwood Media,INV-202609-338,2026-09,Subscription 2026-09 - Driftwood Media,24329,0,Revenue,billing_sync,auto
+JE-202609-001,8,2026-09-01,2026-09,4000,Subscription Revenue,,Driftwood Media,INV-202609-338,2026-09,Subscription 2026-09 - Driftwood Media,0,24329,Revenue,billing_sync,auto
+JE-202609-001,9,2026-09-01,2026-09,1200,Accounts Receivable,,Evergreen Dental,INV-202609-112,2026-09,Subscription 2026-09 - Evergreen Dental,4582,0,Revenue,billing_sync,auto
+JE-202609-001,10,2026-09-01,2026-09,4000,Subscription Revenue,,Evergreen Dental,INV-202609-112,2026-09,Subscription 2026-09 - Evergreen Dental,0,4582,Revenue,billing_sync,auto
+JE-202609-001,11,2026-09-01,2026-09,1200,Accounts Receivable,,Foxglove Labs,INV-202609-596,2026-09,Subscription 2026-09 - Foxglove Labs,5373,0,Revenue,billing_sync,auto
+JE-202609-001,12,2026-09-01,2026-09,4000,Subscription Revenue,,Foxglove Labs,INV-202609-596,2026-09,Subscription 2026-09 - Foxglove Labs,0,5373,Revenue,billing_sync,auto
+JE-202609-001,13,2026-09-01,2026-09,1200,Accounts Receivable,,Granite Analytics,INV-202609-951,2026-09,Subscription 2026-09 - Granite Analytics,20559,0,Revenue,billing_sync,auto
+JE-202609-001,14,2026-09-01,2026-09,4000,Subscription Revenue,,Granite Analytics,INV-202609-951,2026-09,Subscription 2026-09 - Granite Analytics,0,20559,Revenue,billing_sync,auto
+JE-202609-001,15,2026-09-01,2026-09,1200,Accounts Receivable,,Harborview Hotels,INV-202609-703,2026-09,Subscription 2026-09 - Harborview Hotels,6084,0,Revenue,billing_sync,auto
+JE-202609-001,16,2026-09-01,2026-09,4000,Subscription Revenue,,Harborview Hotels,INV-202609-703,2026-09,Subscription 2026-09 - Harborview Hotels,0,6084,Revenue,billing_sync,auto
+JE-202609-001,17,2026-09-01,2026-09,1200,Accounts Receivable,,Ironclad Security,INV-202609-286,2026-09,Subscription 2026-09 - Ironclad Security,14982,0,Revenue,billing_sync,auto
+JE-202609-001,18,2026-09-01,2026-09,4000,Subscription Revenue,,Ironclad Security,INV-202609-286,2026-09,Subscription 2026-09 - Ironclad Security,0,14982,Revenue,billing_sync,auto
+JE-202609-001,19,2026-09-01,2026-09,1200,Accounts Receivable,,Juniper Foods,INV-202609-369,2026-09,Subscription 2026-09 - Juniper Foods,22096,0,Revenue,billing_sync,auto
+JE-202609-001,20,2026-09-01,2026-09,4000,Subscription Revenue,,Juniper Foods,INV-202609-369,2026-09,Subscription 2026-09 - Juniper Foods,0,22096,Revenue,billing_sync,auto
+JE-202609-001,21,2026-09-01,2026-09,1200,Accounts Receivable,,Keystone Realty,INV-202609-388,2026-09,Subscription 2026-09 - Keystone Realty,4900,0,Revenue,billing_sync,auto
+JE-202609-001,22,2026-09-01,2026-09,4000,Subscription Revenue,,Keystone Realty,INV-202609-388,2026-09,Subscription 2026-09 - Keystone Realty,0,4900,Revenue,billing_sync,auto
+JE-202609-001,23,2026-09-01,2026-09,1200,Accounts Receivable,,Lumen Energy,INV-202609-104,2026-09,Subscription 2026-09 - Lumen Energy,19627,0,Revenue,billing_sync,auto
+JE-202609-001,24,2026-09-01,2026-09,4000,Subscription Revenue,,Lumen Energy,INV-202609-104,2026-09,Subscription 2026-09 - Lumen Energy,0,19627,Revenue,billing_sync,auto
+JE-202609-001,25,2026-09-01,2026-09,1200,Accounts Receivable,,Maple Street Bakery,INV-202609-249,2026-09,Subscription 2026-09 - Maple Street Bakery,10035,0,Revenue,billing_sync,auto
+JE-202609-001,26,2026-09-01,2026-09,4000,Subscription Revenue,,Maple Street Bakery,INV-202609-249,2026-09,Subscription 2026-09 - Maple Street Bakery,0,10035,Revenue,billing_sync,auto
+JE-202609-001,27,2026-09-01,2026-09,1200,Accounts Receivable,,Nimbus Software,INV-202609-529,2026-09,Subscription 2026-09 - Nimbus Software,4228,0,Revenue,billing_sync,auto
+JE-202609-001,28,2026-09-01,2026-09,4000,Subscription Revenue,,Nimbus Software,INV-202609-529,2026-09,Subscription 2026-09 - Nimbus Software,0,4228,Revenue,billing_sync,auto
+JE-202609-001,29,2026-09-01,2026-09,1200,Accounts Receivable,,Orchid Retail,INV-202609-647,2026-09,Subscription 2026-09 - Orchid Retail,5816,0,Revenue,billing_sync,auto
+JE-202609-001,30,2026-09-01,2026-09,4000,Subscription Revenue,,Orchid Retail,INV-202609-647,2026-09,Subscription 2026-09 - Orchid Retail,0,5816,Revenue,billing_sync,auto
+JE-202609-001,31,2026-09-01,2026-09,1200,Accounts Receivable,,Pinecrest Schools,INV-202609-478,2026-09,Subscription 2026-09 - Pinecrest Schools,17209,0,Revenue,billing_sync,auto
+JE-202609-001,32,2026-09-01,2026-09,4000,Subscription Revenue,,Pinecrest Schools,INV-202609-478,2026-09,Subscription 2026-09 - Pinecrest Schools,0,17209,Revenue,billing_sync,auto
+JE-202609-001,33,2026-09-01,2026-09,1200,Accounts Receivable,,Quarry Construction,INV-202609-724,2026-09,Subscription 2026-09 - Quarry Construction,16702,0,Revenue,billing_sync,auto
+JE-202609-001,34,2026-09-01,2026-09,4000,Subscription Revenue,,Quarry Construction,INV-202609-724,2026-09,Subscription 2026-09 - Quarry Construction,0,16702,Revenue,billing_sync,auto
+JE-202609-001,35,2026-09-01,2026-09,1200,Accounts Receivable,,Redwood Capital,INV-202609-679,2026-09,Subscription 2026-09 - Redwood Capital,5289,0,Revenue,billing_sync,auto
+JE-202609-001,36,2026-09-01,2026-09,4000,Subscription Revenue,,Redwood Capital,INV-202609-679,2026-09,Subscription 2026-09 - Redwood Capital,0,5289,Revenue,billing_sync,auto
+JE-202609-001,37,2026-09-01,2026-09,1200,Accounts Receivable,,Summit Outdoor,INV-202609-426,2026-09,Subscription 2026-09 - Summit Outdoor,10886,0,Revenue,billing_sync,auto
+JE-202609-001,38,2026-09-01,2026-09,4000,Subscription Revenue,,Summit Outdoor,INV-202609-426,2026-09,Subscription 2026-09 - Summit Outdoor,0,10886,Revenue,billing_sync,auto
+JE-202609-001,39,2026-09-01,2026-09,1200,Accounts Receivable,,Tidewater Marine,INV-202609-228,2026-09,Subscription 2026-09 - Tidewater Marine,5972,0,Revenue,billing_sync,auto
+JE-202609-001,40,2026-09-01,2026-09,4000,Subscription Revenue,,Tidewater Marine,INV-202609-228,2026-09,Subscription 2026-09 - Tidewater Marine,0,5972,Revenue,billing_sync,auto
+JE-202609-002,1,2026-10-01,2026-09,6000,Salaries & Wages,Engineering,Gusto,,2026-09,Payroll 2026-09 - Engineering,180000,0,Payroll,gusto_sync,auto
+JE-202609-002,2,2026-10-01,2026-09,6010,Payroll Taxes,Engineering,Gusto,,2026-09,Payroll 2026-09 - Engineering,13770.0,0,Payroll,gusto_sync,auto
+JE-202609-002,3,2026-10-01,2026-09,6020,Employee Benefits,Engineering,Gusto,,2026-09,Payroll 2026-09 - Engineering,21600.0,0,Payroll,gusto_sync,auto
+JE-202609-002,4,2026-10-01,2026-09,2200,Accrued Payroll,,Gusto,,2026-09,Payroll 2026-09 - Engineering,0,215370.0,Payroll,gusto_sync,auto
+JE-202609-003,1,2026-10-01,2026-09,6000,Salaries & Wages,Sales,Gusto,,2026-09,Payroll 2026-09 - Sales,90000,0,Payroll,gusto_sync,auto
+JE-202609-003,2,2026-10-01,2026-09,6010,Payroll Taxes,Sales,Gusto,,2026-09,Payroll 2026-09 - Sales,6885.0,0,Payroll,gusto_sync,auto
+JE-202609-003,3,2026-10-01,2026-09,6020,Employee Benefits,Sales,Gusto,,2026-09,Payroll 2026-09 - Sales,10800.0,0,Payroll,gusto_sync,auto
+JE-202609-003,4,2026-10-01,2026-09,2200,Accrued Payroll,,Gusto,,2026-09,Payroll 2026-09 - Sales,0,107685.0,Payroll,gusto_sync,auto
+JE-202609-004,1,2026-10-01,2026-09,6000,Salaries & Wages,Marketing,Gusto,,2026-09,Payroll 2026-09 - Marketing,60000,0,Payroll,gusto_sync,auto
+JE-202609-004,2,2026-10-01,2026-09,6010,Payroll Taxes,Marketing,Gusto,,2026-09,Payroll 2026-09 - Marketing,4590.0,0,Payroll,gusto_sync,auto
+JE-202609-004,3,2026-10-01,2026-09,6020,Employee Benefits,Marketing,Gusto,,2026-09,Payroll 2026-09 - Marketing,7200.0,0,Payroll,gusto_sync,auto
+JE-202609-004,4,2026-10-01,2026-09,2200,Accrued Payroll,,Gusto,,2026-09,Payroll 2026-09 - Marketing,0,71790.0,Payroll,gusto_sync,auto
+JE-202609-005,1,2026-10-01,2026-09,6000,Salaries & Wages,Customer Success,Gusto,,2026-09,Payroll 2026-09 - Customer Success,50000,0,Payroll,gusto_sync,auto
+JE-202609-005,2,2026-10-01,2026-09,6010,Payroll Taxes,Customer Success,Gusto,,2026-09,Payroll 2026-09 - Customer Success,3825.0,0,Payroll,gusto_sync,auto
+JE-202609-005,3,2026-10-01,2026-09,6020,Employee Benefits,Customer Success,Gusto,,2026-09,Payroll 2026-09 - Customer Success,6000.0,0,Payroll,gusto_sync,auto
+JE-202609-005,4,2026-10-01,2026-09,2200,Accrued Payroll,,Gusto,,2026-09,Payroll 2026-09 - Customer Success,0,59825.0,Payroll,gusto_sync,auto
+JE-202609-006,1,2026-10-01,2026-09,6000,Salaries & Wages,G&A,Gusto,,2026-09,Payroll 2026-09 - G&A,70000,0,Payroll,gusto_sync,auto
+JE-202609-006,2,2026-10-01,2026-09,6010,Payroll Taxes,G&A,Gusto,,2026-09,Payroll 2026-09 - G&A,5355.0,0,Payroll,gusto_sync,auto
+JE-202609-006,3,2026-10-01,2026-09,6020,Employee Benefits,G&A,Gusto,,2026-09,Payroll 2026-09 - G&A,8400.0,0,Payroll,gusto_sync,auto
+JE-202609-006,4,2026-10-01,2026-09,2200,Accrued Payroll,,Gusto,,2026-09,Payroll 2026-09 - G&A,0,83755.0,Payroll,gusto_sync,auto
+JE-202609-007,1,2026-10-01,2026-09,6000,Salaries & Wages,G&A,,,2026-09,Accrued bonus,10000,0,Manual,mlee,salz
+JE-202609-007,2,2026-10-01,2026-09,2100,Accrued Liabilities,,,,2026-09,Accrued bonus,0,10000,Manual,mlee,salz
+JE-202609-008,1,2026-09-28,2026-09,5000,Hosting (COGS),Engineering,Amazon Web Services,AWS-20260998,2026-09,Cloud hosting,45969.85,0,AP,ap_bot,auto
+JE-202609-008,2,2026-09-28,2026-09,2000,Accounts Payable,,Amazon Web Services,AWS-20260998,2026-09,Cloud hosting,0,45969.85,AP,ap_bot,auto
+JE-202609-009,1,2026-09-02,2026-09,6100,Software Subscriptions,Sales,Salesforce,SF-20260993,2026-09,CRM licenses,6265.55,0,AP,ap_bot,auto
+JE-202609-009,2,2026-09-02,2026-09,2000,Accounts Payable,,Salesforce,SF-20260993,2026-09,CRM licenses,0,6265.55,AP,ap_bot,auto
+JE-202609-010,1,2026-09-24,2026-09,6100,Software Subscriptions,Marketing,Adobe,ADB-20260968,2026-09,Creative Cloud licenses,1433.56,0,AP,ap_bot,auto
+JE-202609-010,2,2026-09-24,2026-09,2000,Accounts Payable,,Adobe,ADB-20260968,2026-09,Creative Cloud licenses,0,1433.56,AP,ap_bot,auto
+JE-202609-011,1,2026-09-17,2026-09,6100,Software Subscriptions,G&A,Slack,SLK-20260960,2026-09,Slack Business+,2087.16,0,AP,ap_bot,auto
+JE-202609-011,2,2026-09-17,2026-09,2000,Accounts Payable,,Slack,SLK-20260960,2026-09,Slack Business+,0,2087.16,AP,ap_bot,auto
+JE-202609-012,1,2026-09-17,2026-09,6100,Software Subscriptions,G&A,Zoom,ZM-20260923,2026-09,Zoom licenses,899.0,0,AP,ap_bot,auto
+JE-202609-012,2,2026-09-17,2026-09,2000,Accounts Payable,,Zoom,ZM-20260923,2026-09,Zoom licenses,0,899.0,AP,ap_bot,auto
+JE-202609-013,1,2026-09-09,2026-09,6100,Software Subscriptions,Marketing,HubSpot,HS-20260917,2026-09,Marketing Hub,3729.46,0,AP,ap_bot,auto
+JE-202609-013,2,2026-09-09,2026-09,2000,Accounts Payable,,HubSpot,HS-20260917,2026-09,Marketing Hub,0,3729.46,AP,ap_bot,auto
+JE-202609-014,1,2026-09-15,2026-09,6100,Software Subscriptions,G&A,DocuSign,DS-20260966,2026-09,eSignature licenses,636.83,0,AP,ap_bot,auto
+JE-202609-014,2,2026-09-15,2026-09,2000,Accounts Payable,,DocuSign,DS-20260966,2026-09,eSignature licenses,0,636.83,AP,ap_bot,auto
+JE-202609-015,1,2026-09-01,2026-09,6200,Rent,G&A,WeWork,WW-20260986,2026-09,Office rent - Seattle,18003.36,0,AP,ap_bot,auto
+JE-202609-015,2,2026-09-01,2026-09,2000,Accounts Payable,,WeWork,WW-20260986,2026-09,Office rent - Seattle,0,18003.36,AP,ap_bot,auto
+JE-202609-016,1,2026-09-04,2026-09,6300,Marketing - Advertising,Marketing,Google Ads,GA-20260982,2026-09,Search ads,11748.91,0,AP,ap_bot,auto
+JE-202609-016,2,2026-09-04,2026-09,2000,Accounts Payable,,Google Ads,GA-20260982,2026-09,Search ads,0,11748.91,AP,ap_bot,auto
+JE-202609-017,1,2026-09-03,2026-09,6400,Professional Fees,G&A,Pemberton Legal LLP,PL-20260956,2026-09,Legal retainer,9564.83,0,AP,ap_bot,auto
+JE-202609-017,2,2026-09-03,2026-09,2000,Accounts Payable,,Pemberton Legal LLP,PL-20260956,2026-09,Legal retainer,0,9564.83,AP,ap_bot,auto
+JE-202609-018,1,2026-09-07,2026-09,6500,Office Supplies,G&A,Staples,STP-20260936,2026-09,Office supplies,1258.56,0,AP,ap_bot,auto
+JE-202609-018,2,2026-09-07,2026-09,2000,Accounts Payable,,Staples,STP-20260936,2026-09,Office supplies,0,1258.56,AP,ap_bot,auto
+JE-202609-019,1,2026-09-16,2026-09,6500,Office Supplies,G&A,Uline,UL-20260991,2026-09,Shipping supplies,591.08,0,AP,ap_bot,auto
+JE-202609-019,2,2026-09-16,2026-09,2000,Accounts Payable,,Uline,UL-20260991,2026-09,Shipping supplies,0,591.08,AP,ap_bot,auto
+JE-202609-020,1,2026-09-04,2026-09,6600,Travel & Meals,Sales,Navan Travel,NV-20260987,2026-09,Sales travel,3471.47,0,AP,ap_bot,auto
+JE-202609-020,2,2026-09-04,2026-09,2000,Accounts Payable,,Navan Travel,NV-20260987,2026-09,Sales travel,0,3471.47,AP,ap_bot,auto
+JE-202609-021,1,2026-09-21,2026-09,6700,Utilities & Telecom,G&A,Comcast Business,CMC-20260924,2026-09,Internet service,459.42,0,AP,ap_bot,auto
+JE-202609-021,2,2026-09-21,2026-09,2000,Accounts Payable,,Comcast Business,CMC-20260924,2026-09,Internet service,0,459.42,AP,ap_bot,auto
+JE-202609-022,1,2026-09-03,2026-09,6700,Utilities & Telecom,G&A,Puget Sound Energy,PSE-20260971,2026-09,Electricity,1098.93,0,AP,ap_bot,auto
+JE-202609-022,2,2026-09-03,2026-09,2000,Accounts Payable,,Puget Sound Energy,PSE-20260971,2026-09,Electricity,0,1098.93,AP,ap_bot,auto
+JE-202610-001,1,2026-10-01,2026-10,1200,Accounts Receivable,,Acme Robotics,INV-202610-247,2026-10,Subscription 2026-10 - Acme Robotics,13611,0,Revenue,billing_sync,auto
+JE-202610-001,2,2026-10-01,2026-10,4000,Subscription Revenue,,Acme Robotics,INV-202610-247,2026-10,Subscription 2026-10 - Acme Robotics,0,13611,Revenue,billing_sync,auto
+JE-202610-001,3,2026-10-01,2026-10,1200,Accounts Receivable,,Bluepeak Health,INV-202610-204,2026-10,Subscription 2026-10 - Bluepeak Health,7943,0,Revenue,billing_sync,auto
+JE-202610-001,4,2026-10-01,2026-10,4000,Subscription Revenue,,Bluepeak Health,INV-202610-204,2026-10,Subscription 2026-10 - Bluepeak Health,0,7943,Revenue,billing_sync,auto
+JE-202610-001,5,2026-10-01,2026-10,1200,Accounts Receivable,,Cobalt Logistics,INV-202610-867,2026-10,Subscription 2026-10 - Cobalt Logistics,15937,0,Revenue,billing_sync,auto
+JE-202610-001,6,2026-10-01,2026-10,4000,Subscription Revenue,,Cobalt Logistics,INV-202610-867,2026-10,Subscription 2026-10 - Cobalt Logistics,0,15937,Revenue,billing_sync,auto
+JE-202610-001,7,2026-10-01,2026-10,1200,Accounts Receivable,,Driftwood Media,INV-202610-450,2026-10,Subscription 2026-10 - Driftwood Media,24329,0,Revenue,billing_sync,auto
+JE-202610-001,8,2026-10-01,2026-10,4000,Subscription Revenue,,Driftwood Media,INV-202610-450,2026-10,Subscription 2026-10 - Driftwood Media,0,24329,Revenue,billing_sync,auto
+JE-202610-001,9,2026-10-01,2026-10,1200,Accounts Receivable,,Evergreen Dental,INV-202610-858,2026-10,Subscription 2026-10 - Evergreen Dental,4582,0,Revenue,billing_sync,auto
+JE-202610-001,10,2026-10-01,2026-10,4000,Subscription Revenue,,Evergreen Dental,INV-202610-858,2026-10,Subscription 2026-10 - Evergreen Dental,0,4582,Revenue,billing_sync,auto
+JE-202610-001,11,2026-10-01,2026-10,1200,Accounts Receivable,,Foxglove Labs,INV-202610-371,2026-10,Subscription 2026-10 - Foxglove Labs,5373,0,Revenue,billing_sync,auto
+JE-202610-001,12,2026-10-01,2026-10,4000,Subscription Revenue,,Foxglove Labs,INV-202610-371,2026-10,Subscription 2026-10 - Foxglove Labs,0,5373,Revenue,billing_sync,auto
+JE-202610-001,13,2026-10-01,2026-10,1200,Accounts Receivable,,Granite Analytics,INV-202610-590,2026-10,Subscription 2026-10 - Granite Analytics,20559,0,Revenue,billing_sync,auto
+JE-202610-001,14,2026-10-01,2026-10,4000,Subscription Revenue,,Granite Analytics,INV-202610-590,2026-10,Subscription 2026-10 - Granite Analytics,0,20559,Revenue,billing_sync,auto
+JE-202610-001,15,2026-10-01,2026-10,1200,Accounts Receivable,,Harborview Hotels,INV-202610-948,2026-10,Subscription 2026-10 - Harborview Hotels,6084,0,Revenue,billing_sync,auto
+JE-202610-001,16,2026-10-01,2026-10,4000,Subscription Revenue,,Harborview Hotels,INV-202610-948,2026-10,Subscription 2026-10 - Harborview Hotels,0,6084,Revenue,billing_sync,auto
+JE-202610-001,17,2026-10-01,2026-10,1200,Accounts Receivable,,Ironclad Security,INV-202610-808,2026-10,Subscription 2026-10 - Ironclad Security,14982,0,Revenue,billing_sync,auto
+JE-202610-001,18,2026-10-01,2026-10,4000,Subscription Revenue,,Ironclad Security,INV-202610-808,2026-10,Subscription 2026-10 - Ironclad Security,0,14982,Revenue,billing_sync,auto
+JE-202610-001,19,2026-10-01,2026-10,1200,Accounts Receivable,,Juniper Foods,INV-202610-265,2026-10,Subscription 2026-10 - Juniper Foods,22096,0,Revenue,billing_sync,auto
+JE-202610-001,20,2026-10-01,2026-10,4000,Subscription Revenue,,Juniper Foods,INV-202610-265,2026-10,Subscription 2026-10 - Juniper Foods,0,22096,Revenue,billing_sync,auto
+JE-202610-001,21,2026-10-01,2026-10,1200,Accounts Receivable,,Keystone Realty,INV-202610-628,2026-10,Subscription 2026-10 - Keystone Realty,4900,0,Revenue,billing_sync,auto
+JE-202610-001,22,2026-10-01,2026-10,4000,Subscription Revenue,,Keystone Realty,INV-202610-628,2026-10,Subscription 2026-10 - Keystone Realty,0,4900,Revenue,billing_sync,auto
+JE-202610-001,23,2026-10-01,2026-10,1200,Accounts Receivable,,Lumen Energy,INV-202610-123,2026-10,Subscription 2026-10 - Lumen Energy,19627,0,Revenue,billing_sync,auto
+JE-202610-001,24,2026-10-01,2026-10,4000,Subscription Revenue,,Lumen Energy,INV-202610-123,2026-10,Subscription 2026-10 - Lumen Energy,0,19627,Revenue,billing_sync,auto
+JE-202610-001,25,2026-10-01,2026-10,1200,Accounts Receivable,,Maple Street Bakery,INV-202610-310,2026-10,Subscription 2026-10 - Maple Street Bakery,10035,0,Revenue,billing_sync,auto
+JE-202610-001,26,2026-10-01,2026-10,4000,Subscription Revenue,,Maple Street Bakery,INV-202610-310,2026-10,Subscription 2026-10 - Maple Street Bakery,0,10035,Revenue,billing_sync,auto
+JE-202610-001,27,2026-10-01,2026-10,1200,Accounts Receivable,,Nimbus Software,INV-202610-640,2026-10,Subscription 2026-10 - Nimbus Software,4228,0,Revenue,billing_sync,auto
+JE-202610-001,28,2026-10-01,2026-10,4000,Subscription Revenue,,Nimbus Software,INV-202610-640,2026-10,Subscription 2026-10 - Nimbus Software,0,4228,Revenue,billing_sync,auto
+JE-202610-001,29,2026-10-01,2026-10,1200,Accounts Receivable,,Orchid Retail,INV-202610-470,2026-10,Subscription 2026-10 - Orchid Retail,5816,0,Revenue,billing_sync,auto
+JE-202610-001,30,2026-10-01,2026-10,4000,Subscription Revenue,,Orchid Retail,INV-202610-470,2026-10,Subscription 2026-10 - Orchid Retail,0,5816,Revenue,billing_sync,auto
+JE-202610-001,31,2026-10-01,2026-10,1200,Accounts Receivable,,Pinecrest Schools,INV-202610-250,2026-10,Subscription 2026-10 - Pinecrest Schools,17209,0,Revenue,billing_sync,auto
+JE-202610-001,32,2026-10-01,2026-10,4000,Subscription Revenue,,Pinecrest Schools,INV-202610-250,2026-10,Subscription 2026-10 - Pinecrest Schools,0,17209,Revenue,billing_sync,auto
+JE-202610-001,33,2026-10-01,2026-10,1200,Accounts Receivable,,Quarry Construction,INV-202610-806,2026-10,Subscription 2026-10 - Quarry Construction,16702,0,Revenue,billing_sync,auto
+JE-202610-001,34,2026-10-01,2026-10,4000,Subscription Revenue,,Quarry Construction,INV-202610-806,2026-10,Subscription 2026-10 - Quarry Construction,0,16702,Revenue,billing_sync,auto
+JE-202610-001,35,2026-10-01,2026-10,1200,Accounts Receivable,,Redwood Capital,INV-202610-656,2026-10,Subscription 2026-10 - Redwood Capital,5289,0,Revenue,billing_sync,auto
+JE-202610-001,36,2026-10-01,2026-10,4000,Subscription Revenue,,Redwood Capital,INV-202610-656,2026-10,Subscription 2026-10 - Redwood Capital,0,5289,Revenue,billing_sync,auto
+JE-202610-001,37,2026-10-01,2026-10,1200,Accounts Receivable,,Summit Outdoor,INV-202610-127,2026-10,Subscription 2026-10 - Summit Outdoor,10886,0,Revenue,billing_sync,auto
+JE-202610-001,38,2026-10-01,2026-10,4000,Subscription Revenue,,Summit Outdoor,INV-202610-127,2026-10,Subscription 2026-10 - Summit Outdoor,0,10886,Revenue,billing_sync,auto
+JE-202610-001,39,2026-10-01,2026-10,1200,Accounts Receivable,,Tidewater Marine,INV-202610-876,2026-10,Subscription 2026-10 - Tidewater Marine,5972,0,Revenue,billing_sync,auto
+JE-202610-001,40,2026-10-01,2026-10,4000,Subscription Revenue,,Tidewater Marine,INV-202610-876,2026-10,Subscription 2026-10 - Tidewater Marine,0,5972,Revenue,billing_sync,auto
+JE-202610-001,41,2026-10-01,2026-10,1200,Accounts Receivable,,Northstar Payments,INV-202610-640,2026-10,Subscription 2026-10 - Northstar Payments,18000,0,Revenue,billing_sync,auto
+JE-202610-001,42,2026-10-01,2026-10,4000,Subscription Revenue,,Northstar Payments,INV-202610-640,2026-10,Subscription 2026-10 - Northstar Payments,0,18000,Revenue,billing_sync,auto
+JE-202610-001,43,2026-10-01,2026-10,1200,Accounts Receivable,,Copperline Bank,INV-202610-405,2026-10,Subscription 2026-10 - Copperline Bank,12000,0,Revenue,billing_sync,auto
+JE-202610-001,44,2026-10-01,2026-10,4000,Subscription Revenue,,Copperline Bank,INV-202610-405,2026-10,Subscription 2026-10 - Copperline Bank,0,12000,Revenue,billing_sync,auto
+JE-202610-002,1,2026-10-30,2026-10,6000,Salaries & Wages,Engineering,Gusto,,2026-10,Payroll 2026-10 - Engineering (incl. 3 new hires),231000,0,Payroll,gusto_sync,auto
+JE-202610-002,2,2026-10-30,2026-10,6010,Payroll Taxes,Engineering,Gusto,,2026-10,Payroll 2026-10 - Engineering (incl. 3 new hires),17671.5,0,Payroll,gusto_sync,auto
+JE-202610-002,3,2026-10-30,2026-10,6020,Employee Benefits,Engineering,Gusto,,2026-10,Payroll 2026-10 - Engineering (incl. 3 new hires),27720.0,0,Payroll,gusto_sync,auto
+JE-202610-002,4,2026-10-30,2026-10,2200,Accrued Payroll,,Gusto,,2026-10,Payroll 2026-10 - Engineering (incl. 3 new hires),0,276391.5,Payroll,gusto_sync,auto
+JE-202610-003,1,2026-10-30,2026-10,6000,Salaries & Wages,Sales,Gusto,,2026-10,Payroll 2026-10 - Sales,90000,0,Payroll,gusto_sync,auto
+JE-202610-003,2,2026-10-30,2026-10,6010,Payroll Taxes,Sales,Gusto,,2026-10,Payroll 2026-10 - Sales,6885.0,0,Payroll,gusto_sync,auto
+JE-202610-003,3,2026-10-30,2026-10,6020,Employee Benefits,Sales,Gusto,,2026-10,Payroll 2026-10 - Sales,10800.0,0,Payroll,gusto_sync,auto
+JE-202610-003,4,2026-10-30,2026-10,2200,Accrued Payroll,,Gusto,,2026-10,Payroll 2026-10 - Sales,0,107685.0,Payroll,gusto_sync,auto
+JE-202610-004,1,2026-10-30,2026-10,6000,Salaries & Wages,Marketing,Gusto,,2026-10,Payroll 2026-10 - Marketing,60000,0,Payroll,gusto_sync,auto
+JE-202610-004,2,2026-10-30,2026-10,6010,Payroll Taxes,Marketing,Gusto,,2026-10,Payroll 2026-10 - Marketing,4590.0,0,Payroll,gusto_sync,auto
+JE-202610-004,3,2026-10-30,2026-10,6020,Employee Benefits,Marketing,Gusto,,2026-10,Payroll 2026-10 - Marketing,7200.0,0,Payroll,gusto_sync,auto
+JE-202610-004,4,2026-10-30,2026-10,2200,Accrued Payroll,,Gusto,,2026-10,Payroll 2026-10 - Marketing,0,71790.0,Payroll,gusto_sync,auto
+JE-202610-005,1,2026-10-30,2026-10,6000,Salaries & Wages,Customer Success,Gusto,,2026-10,Payroll 2026-10 - Customer Success,50000,0,Payroll,gusto_sync,auto
+JE-202610-005,2,2026-10-30,2026-10,6010,Payroll Taxes,Customer Success,Gusto,,2026-10,Payroll 2026-10 - Customer Success,3825.0,0,Payroll,gusto_sync,auto
+JE-202610-005,3,2026-10-30,2026-10,6020,Employee Benefits,Customer Success,Gusto,,2026-10,Payroll 2026-10 - Customer Success,6000.0,0,Payroll,gusto_sync,auto
+JE-202610-005,4,2026-10-30,2026-10,2200,Accrued Payroll,,Gusto,,2026-10,Payroll 2026-10 - Customer Success,0,59825.0,Payroll,gusto_sync,auto
+JE-202610-006,1,2026-10-30,2026-10,6000,Salaries & Wages,G&A,Gusto,,2026-10,Payroll 2026-10 - G&A,70000,0,Payroll,gusto_sync,auto
+JE-202610-006,2,2026-10-30,2026-10,6010,Payroll Taxes,G&A,Gusto,,2026-10,Payroll 2026-10 - G&A,5355.0,0,Payroll,gusto_sync,auto
+JE-202610-006,3,2026-10-30,2026-10,6020,Employee Benefits,G&A,Gusto,,2026-10,Payroll 2026-10 - G&A,8400.0,0,Payroll,gusto_sync,auto
+JE-202610-006,4,2026-10-30,2026-10,2200,Accrued Payroll,,Gusto,,2026-10,Payroll 2026-10 - G&A,0,83755.0,Payroll,gusto_sync,auto
+JE-202610-007,1,2026-10-30,2026-10,6000,Salaries & Wages,G&A,,,2026-10,Accrued bonus,10000,0,Manual,mlee,mlee
+JE-202610-007,2,2026-10-30,2026-10,2100,Accrued Liabilities,,,,2026-10,Accrued bonus,0,10000,Manual,mlee,mlee
+JE-202610-008,1,2026-10-13,2026-10,5000,Hosting (COGS),Engineering,Amazon Web Services,AWS-20261092,2026-10,Cloud hosting - usage spike from new customer onboarding,58900.0,0,AP,ap_bot,auto
+JE-202610-008,2,2026-10-13,2026-10,2000,Accounts Payable,,Amazon Web Services,AWS-20261092,2026-10,Cloud hosting - usage spike from new customer onboarding,0,58900.0,AP,ap_bot,auto
+JE-202610-009,1,2026-10-08,2026-10,6100,Software Subscriptions,Sales,Salesforce,SF-20261076,2026-10,Salesforce annual renewal,24800.0,0,AP,ap_bot,auto
+JE-202610-009,2,2026-10-08,2026-10,2000,Accounts Payable,,Salesforce,SF-20261076,2026-10,Salesforce annual renewal,0,24800.0,AP,ap_bot,auto
+JE-202610-010,1,2026-10-26,2026-10,6100,Software Subscriptions,,Adobe,ADB-20261055,2026-10,Creative Cloud licenses,1422.84,0,AP,ap_bot,auto
+JE-202610-010,2,2026-10-26,2026-10,2000,Accounts Payable,,Adobe,ADB-20261055,2026-10,Creative Cloud licenses,0,1422.84,AP,ap_bot,auto
+JE-202610-011,1,2026-10-15,2026-10,6100,Software Subscriptions,G&A,Slack,SLK-20261079,2026-10,Slack Business+,2135.16,0,AP,ap_bot,auto
+JE-202610-011,2,2026-10-15,2026-10,2000,Accounts Payable,,Slack,SLK-20261079,2026-10,Slack Business+,0,2135.16,AP,ap_bot,auto
+JE-202610-012,1,2026-10-09,2026-10,6100,Software Subscriptions,,Zoom,ZM-20261091,2026-10,Zoom licenses,885.04,0,AP,ap_bot,auto
+JE-202610-012,2,2026-10-09,2026-10,2000,Accounts Payable,,Zoom,ZM-20261091,2026-10,Zoom licenses,0,885.04,AP,ap_bot,auto
+JE-202610-013,1,2026-10-12,2026-10,6100,Software Subscriptions,Marketing,HubSpot,HS-20261040,2026-10,Marketing Hub,3872.58,0,AP,ap_bot,auto
+JE-202610-013,2,2026-10-12,2026-10,2000,Accounts Payable,,HubSpot,HS-20261040,2026-10,Marketing Hub,0,3872.58,AP,ap_bot,auto
+JE-202610-014,1,2026-10-09,2026-10,6100,Software Subscriptions,Marketing,HubSpot,HS-20261040,2026-10,Marketing Hub,3872.58,0,AP,ap_bot,auto
+JE-202610-014,2,2026-10-09,2026-10,2000,Accounts Payable,,HubSpot,HS-20261040,2026-10,Marketing Hub,0,3872.58,AP,ap_bot,auto
+JE-202610-015,1,2026-10-01,2026-10,6100,Software Subscriptions,G&A,DocuSign,DS-20261076,2026-10,eSignature licenses,649.72,0,AP,ap_bot,auto
+JE-202610-015,2,2026-10-01,2026-10,2000,Accounts Payable,,DocuSign,DS-20261076,2026-10,eSignature licenses,0,649.72,AP,ap_bot,auto
+JE-202610-016,1,2026-10-22,2026-10,6100,Software Subscriptions,G&A,WeWork,WW-20261013,2026-10,Office rent - Seattle,18822.03,0,AP,ap_bot,auto
+JE-202610-016,2,2026-10-22,2026-10,2000,Accounts Payable,,WeWork,WW-20261013,2026-10,Office rent - Seattle,0,18822.03,AP,ap_bot,auto
+JE-202610-017,1,2026-10-28,2026-10,6300,Marketing - Advertising,Marketing,Google Ads,GA-20261043,2026-10,Q4 lead-gen campaign,38400.0,0,AP,ap_bot,auto
+JE-202610-017,2,2026-10-28,2026-10,2000,Accounts Payable,,Google Ads,GA-20261043,2026-10,Q4 lead-gen campaign,0,38400.0,AP,ap_bot,auto
+JE-202610-018,1,2026-10-16,2026-10,6400,Professional Fees,G&A,Pemberton Legal LLP,PL-20261054,2026-10,Legal retainer,9469.92,0,AP,ap_bot,auto
+JE-202610-018,2,2026-10-16,2026-10,2000,Accounts Payable,,Pemberton Legal LLP,PL-20261054,2026-10,Legal retainer,0,9469.92,AP,ap_bot,auto
+JE-202610-019,1,2026-10-06,2026-10,5000,Hosting (COGS),G&A,Staples,STP-20261056,2026-10,Office supplies,1218.54,0,AP,ap_bot,auto
+JE-202610-019,2,2026-10-06,2026-10,2000,Accounts Payable,,Staples,STP-20261056,2026-10,Office supplies,0,1218.54,AP,ap_bot,auto
+JE-202610-020,1,2026-10-15,2026-10,6500,Office Supplies,,Uline,UL-20261039,2026-10,Shipping supplies,598.92,0,AP,ap_bot,auto
+JE-202610-020,2,2026-10-15,2026-10,2000,Accounts Payable,,Uline,UL-20261039,2026-10,Shipping supplies,0,598.92,AP,ap_bot,auto
+JE-202610-021,1,2026-10-28,2026-10,6600,Travel & Meals,Sales,,NV-20261036,2026-10,Sales travel,3496.36,0,AP,ap_bot,auto
+JE-202610-021,2,2026-10-28,2026-10,2000,Accounts Payable,,,NV-20261036,2026-10,Sales travel,0,3496.36,AP,ap_bot,auto
+JE-202610-022,1,2026-10-16,2026-10,6700,Utilities & Telecom,G&A,Comcast Business,CMC-20261010,2026-10,,449.45,0,AP,ap_bot,auto
+JE-202610-022,2,2026-10-16,2026-10,2000,Accounts Payable,,Comcast Business,CMC-20261010,2026-10,,0,449.45,AP,ap_bot,auto
+JE-202610-023,1,2026-10-06,2026-10,6700,Utilities & Telecom,G&A,Puget Sound Energy,PSE-20261092,2026-10,Electricity,1072.6,0,AP,ap_bot,auto
+JE-202610-023,2,2026-10-06,2026-10,2000,Accounts Payable,,Puget Sound Energy,PSE-20261092,2026-10,Electricity,0,1072.6,AP,ap_bot,auto
+JE-202610-024,1,2026-10-28,2026-10,6300,Marketing - Advertising,Marketing,LinkedIn Ads,LI-2026101,2026-10,Q4 ABM campaign,9000.0,0,AP,ap_bot,auto
+JE-202610-024,2,2026-10-28,2026-10,2000,Accounts Payable,,LinkedIn Ads,LI-2026101,2026-10,Q4 ABM campaign,0,9000.0,AP,ap_bot,auto
+JE-202610-025,1,2026-10-28,2026-10,6310,Marketing - Events,Marketing,FinTech Summit,FTS-0042,2026-10,FinTech Summit 2026 sponsorship,25000.0,0,AP,ap_bot,auto
+JE-202610-025,2,2026-10-28,2026-10,2000,Accounts Payable,,FinTech Summit,FTS-0042,2026-10,FinTech Summit 2026 sponsorship,0,25000.0,AP,ap_bot,auto
+JE-202610-026,1,2026-10-28,2026-10,6400,Professional Fees,G&A,Pemberton Legal LLP,PL-2026111,2026-11,Legal retainer - November,9500.0,0,AP,ap_bot,auto
+JE-202610-026,2,2026-10-28,2026-10,2000,Accounts Payable,,Pemberton Legal LLP,PL-2026111,2026-11,Legal retainer - November,0,9500.0,AP,ap_bot,auto
+JE-202610-027,1,2026-10-30,2026-10,6310,Marketing - Events,Marketing,,,2026-10,Reclass booth costs to events,5000,0,Manual,jsmith,salz
+JE-202610-027,2,2026-10-30,2026-10,6300,Marketing - Advertising,Marketing,,,2026-10,Reclass booth costs to events,0,4500,Manual,jsmith,salz
+JE-202610-028,1,2026-10-30,2026-10,6400,Professional Fees,G&A,,,2026-10,Accrued audit fees,6000,0,Manual,jsmith,
+JE-202610-028,2,2026-10-30,2026-10,2100,Accrued Liabilities,,,,2026-10,Accrued audit fees,0,6000,Manual,jsmith,

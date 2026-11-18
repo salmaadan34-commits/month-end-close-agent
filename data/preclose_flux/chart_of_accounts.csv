@@ -1,0 +1,20 @@
+account,account_name,type
+1200,Accounts Receivable,BS
+1010,Cash - Operating,BS
+1400,Prepaid Expenses,BS
+2000,Accounts Payable,BS
+2100,Accrued Liabilities,BS
+2200,Accrued Payroll,BS
+4000,Subscription Revenue,Revenue
+5000,Hosting (COGS),Expense
+6000,Salaries & Wages,Expense
+6010,Payroll Taxes,Expense
+6020,Employee Benefits,Expense
+6100,Software Subscriptions,Expense
+6200,Rent,Expense
+6300,Marketing - Advertising,Expense
+6310,Marketing - Events,Expense
+6400,Professional Fees,Expense
+6500,Office Supplies,Expense
+6600,Travel & Meals,Expense
+6700,Utilities & Telecom,Expense

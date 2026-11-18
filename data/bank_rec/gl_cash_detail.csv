@@ -1,0 +1,274 @@
+account,date,je_number,type,reference,memo,amount
+OPERATING,2026-10-01,JE-1001,deposit,INV-24506,Customer payment - Driftwood Media INV-24506,12152.8
+OPERATING,2026-10-01,JE-1052,deposit,INV-26396,Customer payment - Maple Street Bakery INV-26396,13036.33
+OPERATING,2026-10-01,JE-1079,deposit,INV-22938,Customer payment - Nimbus Software INV-22938,33540.55
+OPERATING,2026-10-01,JE-1083,deposit,INV-23164,Customer payment - Harborview Hotels INV-23164,18833.27
+OPERATING,2026-10-01,JE-1089,deposit,INV-28518,Customer payment - Nimbus Software INV-28518,41762.52
+OPERATING,2026-10-01,JE-1124,ach,,Vendor payment - Delta Dental Bill-3432,-18713.23
+OPERATING,2026-10-01,JE-1159,ach,,Vendor payment - Grainger Bill-4692,-14519.88
+OPERATING,2026-10-01,JE-1209,ach,,Vendor payment - Comcast Business Bill-5411,-7977.59
+OPERATING,2026-10-01,JE-1240,check,10459,Check 10459 - Rainier Printing,-4576.99
+OPERATING,2026-10-02,JE-1018,deposit,INV-25168,Customer payment - Harborview Hotels INV-25168,18950.67
+OPERATING,2026-10-02,JE-1046,deposit,INV-26596,Customer payment - Driftwood Media INV-26596,33177.29
+OPERATING,2026-10-02,JE-1057,deposit,INV-28320,Customer payment - Foxglove Labs INV-28320,4984.85
+OPERATING,2026-10-02,JE-1076,deposit,INV-25862,Customer payment - Lumen Energy INV-25862,10638.33
+OPERATING,2026-10-02,JE-1117,ach,,Vendor payment - Salesforce Bill-3816,-16630.0
+OPERATING,2026-10-02,JE-1150,ach,T904187231,Vendor payment - Salesforce Bill-6376,-3775.41
+OPERATING,2026-10-02,JE-1205,ach,T235209737,Vendor payment - Amazon Web Services Bill-6223,-17341.46
+OPERATING,2026-10-02,JE-1223,ach,,Vendor payment - DocuSign Bill-4440,-21309.51
+OPERATING,2026-10-05,JE-1003,deposit,INV-23582,Customer payment - Acme Robotics INV-23582,11620.75
+OPERATING,2026-10-05,JE-1033,deposit,INV-27962,Customer payment - Cobalt Logistics INV-27962,36997.01
+OPERATING,2026-10-05,JE-1038,deposit,INV-25539,Customer payment - Harborview Hotels INV-25539,2414.99
+OPERATING,2026-10-05,JE-1050,deposit,INV-23872,Customer payment - Acme Robotics INV-23872,8734.53
+OPERATING,2026-10-05,JE-1058,deposit,INV-23853,Customer payment - Cobalt Logistics INV-23853,19064.24
+OPERATING,2026-10-05,JE-1070,deposit,INV-26939,Customer payment - Bluepeak Health INV-26939,37576.64
+OPERATING,2026-10-05,JE-1096,ach,,Vendor payment - Staples Bill-5536,-6350.73
+OPERATING,2026-10-05,JE-1098,ach,,Vendor payment - HubSpot Bill-5357,-10100.84
+OPERATING,2026-10-05,JE-1127,ach,,Vendor payment - Zoom Video Bill-6073,-6244.58
+OPERATING,2026-10-05,JE-1132,ach,,Vendor payment - Amazon Web Services Bill-3996,-6579.05
+OPERATING,2026-10-05,JE-1142,ach,T920814900,Vendor payment - Puget Sound Energy Bill-4704,-21867.11
+OPERATING,2026-10-05,JE-1174,ach,,Vendor payment - Comcast Business Bill-4386,-10408.37
+OPERATING,2026-10-05,JE-1175,ach,,Vendor payment - Uline Bill-6519,-18761.07
+OPERATING,2026-10-05,JE-1197,ach,,Vendor payment - Zoom Video Bill-5871,-14033.58
+OPERATING,2026-10-05,JE-1206,ach,,Vendor payment - FedEx Bill-5401,-18281.52
+OPERATING,2026-10-05,JE-1229,ach,T550791704,Vendor payment - Amazon Web Services Bill-4858,-16452.54
+OPERATING,2026-10-05,JE-1231,check,10450,Check 10450 - Cascade Janitorial,-1585.21
+OPERATING,2026-10-05,JE-1241,check,10460,Check 10460 - Sound Movers,-3545.83
+OPERATING,2026-10-06,JE-1026,deposit,INV-28797,Customer payment - Acme Robotics INV-28797,34163.18
+OPERATING,2026-10-06,JE-1027,deposit,INV-24808,Customer payment - Keystone Realty INV-24808,20412.29
+OPERATING,2026-10-06,JE-1044,deposit,INV-21588,Customer payment - Granite Analytics INV-21588,30165.75
+OPERATING,2026-10-06,JE-1067,deposit,INV-22200,Customer payment - Juniper Foods INV-22200,13004.27
+OPERATING,2026-10-06,JE-1073,deposit,INV-21232,Customer payment - Acme Robotics INV-21232,42609.72
+OPERATING,2026-10-06,JE-1122,ach,T834717549,Vendor payment - Zoom Video Bill-5459,-15383.67
+OPERATING,2026-10-06,JE-1135,ach,,Vendor payment - Delta Dental Bill-5826,-16381.95
+OPERATING,2026-10-06,JE-1137,ach,T487493096,Vendor payment - Puget Sound Energy Bill-3734,-18342.93
+OPERATING,2026-10-06,JE-1173,ach,,Vendor payment - Kaiser Permanente Bill-5959,-11642.03
+OPERATING,2026-10-06,JE-1189,ach,,Vendor payment - Comcast Business Bill-4265,-19889.37
+OPERATING,2026-10-06,JE-1193,ach,T909763993,Vendor payment - Delta Dental Bill-6958,-10383.04
+OPERATING,2026-10-06,JE-1196,ach,,Vendor payment - Cintas Bill-5537,-14895.18
+OPERATING,2026-10-06,JE-1198,ach,,Vendor payment - DocuSign Bill-4246,-3204.13
+OPERATING,2026-10-06,JE-1204,ach,,Vendor payment - FedEx Bill-3375,-20885.89
+OPERATING,2026-10-06,JE-1217,ach,T802992685,Vendor payment - DocuSign Bill-5666,-17479.15
+OPERATING,2026-10-06,JE-1221,ach,T239710404,Vendor payment - DocuSign Bill-5278,-16419.27
+OPERATING,2026-10-06,JE-1234,check,10453,Check 10453 - Lakeside Plumbing,-6843.5
+OPERATING,2026-10-06,JE-1238,check,10457,Check 10457 - Cascade Janitorial,-2852.49
+OPERATING,2026-10-07,JE-1034,deposit,INV-27787,Customer payment - Evergreen Dental INV-27787,42687.92
+OPERATING,2026-10-07,JE-1068,deposit,INV-24462,Customer payment - Redwood Capital INV-24462,13756.4
+OPERATING,2026-10-07,JE-1075,deposit,INV-27041,Customer payment - Redwood Capital INV-27041,7043.88
+OPERATING,2026-10-07,JE-1078,deposit,INV-23878,Customer payment - Tidewater Marine INV-23878,39110.35
+OPERATING,2026-10-07,JE-1125,ach,,Vendor payment - Kaiser Permanente Bill-6954,-9665.39
+OPERATING,2026-10-07,JE-1166,ach,T948262678,Vendor payment - Grainger Bill-6499,-19028.99
+OPERATING,2026-10-07,JE-1168,ach,,Vendor payment - HubSpot Bill-4361,-9907.06
+OPERATING,2026-10-07,JE-1172,ach,,Vendor payment - Adobe Inc Bill-6562,-11125.06
+OPERATING,2026-10-07,JE-1190,ach,T902601465,Vendor payment - Cintas Bill-4701,-2119.41
+OPERATING,2026-10-07,JE-1191,ach,,Vendor payment - FedEx Bill-4498,-17335.3
+OPERATING,2026-10-07,JE-1208,ach,,Vendor payment - Comcast Business Bill-3450,-11953.71
+OPERATING,2026-10-07,JE-1220,ach,,Vendor payment - Cintas Bill-3373,-15157.04
+OPERATING,2026-10-08,JE-1006,deposit,INV-26924,Customer payment - Acme Robotics INV-26924,16300.9
+OPERATING,2026-10-08,JE-1015,deposit,INV-28751,Customer payment - Cobalt Logistics INV-28751,33217.02
+OPERATING,2026-10-08,JE-1024,deposit,INV-26916,Customer payment - Evergreen Dental INV-26916,27443.79
+OPERATING,2026-10-08,JE-1030,deposit,INV-28837,Customer payment - Lumen Energy INV-28837,42977.24
+OPERATING,2026-10-08,JE-1048,deposit,INV-24563,Customer payment - Nimbus Software INV-24563,21624.32
+OPERATING,2026-10-08,JE-1093,ach,T688343096,Vendor payment - Uline Bill-6414,-13599.0
+OPERATING,2026-10-08,JE-1112,ach,,Vendor payment - Uline Bill-5548,-18515.05
+OPERATING,2026-10-08,JE-1114,ach,T327268503,Vendor payment - Kaiser Permanente Bill-4862,-1248.72
+OPERATING,2026-10-08,JE-1146,ach,,Vendor payment - Salesforce Bill-5432,-208.46
+OPERATING,2026-10-08,JE-1180,ach,,Vendor payment - Staples Bill-4566,-3975.27
+OPERATING,2026-10-08,JE-1183,ach,,Vendor payment - Iron Mountain Bill-5406,-1763.88
+OPERATING,2026-10-08,JE-1192,ach,,Vendor payment - Slack Technologies Bill-4973,-5764.8
+OPERATING,2026-10-08,JE-1227,ach,,Vendor payment - Amazon Web Services Bill-6774,-6120.96
+OPERATING,2026-10-08,JE-1228,ach,,Vendor payment - Amazon Web Services Bill-4641,-19156.5
+OPERATING,2026-10-09,JE-1036,deposit,INV-25107,Customer payment - Redwood Capital INV-25107,18856.17
+OPERATING,2026-10-09,JE-1047,deposit,INV-23116,Customer payment - Harborview Hotels INV-23116,24828.43
+OPERATING,2026-10-09,JE-1051,deposit,INV-26570,Customer payment - Pinecrest Schools INV-26570,40756.26
+OPERATING,2026-10-09,JE-1054,deposit,INV-24861,Customer payment - Evergreen Dental INV-24861,10969.99
+OPERATING,2026-10-09,JE-1064,deposit,INV-28288,Customer payment - Redwood Capital INV-28288,13036.22
+OPERATING,2026-10-09,JE-1069,deposit,INV-24325,Customer payment - Keystone Realty INV-24325,23485.29
+OPERATING,2026-10-09,JE-1107,ach,,Vendor payment - Comcast Business Bill-5222,-1553.4
+OPERATING,2026-10-09,JE-1108,ach,T926561919,Vendor payment - Adobe Inc Bill-5392,-18348.67
+OPERATING,2026-10-09,JE-1145,ach,T357553274,Vendor payment - FedEx Bill-3711,-5932.52
+OPERATING,2026-10-09,JE-1202,ach,,Vendor payment - Cintas Bill-6503,-9837.92
+OPERATING,2026-10-09,JE-1224,ach,,Vendor payment - Grainger Bill-6470,-3530.85
+OPERATING,2026-10-09,JE-1235,check,10454,Check 10454 - Capitol Hill Locksmith,-1175.83
+OPERATING,2026-10-09,JE-1237,check,10456,Check 10456 - Elliott Bay Catering,-8863.12
+OPERATING,2026-10-09,JE-1267,ach,,Vendor payment - Cloudhost Inc Bill-4471,-3180.0
+OPERATING,2026-10-09,JE-1268,ach,,Vendor payment - Cloudhost Inc Bill-4471,-3180.0
+OPERATING,2026-10-12,JE-1017,deposit,INV-25313,Customer payment - Redwood Capital INV-25313,38164.06
+OPERATING,2026-10-12,JE-1032,deposit,INV-20949,Customer payment - Juniper Foods INV-20949,11977.91
+OPERATING,2026-10-12,JE-1040,deposit,INV-21104,Customer payment - Bluepeak Health INV-21104,40885.77
+OPERATING,2026-10-12,JE-1065,deposit,INV-26054,Customer payment - Cobalt Logistics INV-26054,13896.95
+OPERATING,2026-10-12,JE-1080,deposit,INV-24371,Customer payment - Nimbus Software INV-24371,8425.11
+OPERATING,2026-10-12,JE-1100,ach,,Vendor payment - DocuSign Bill-5121,-3993.12
+OPERATING,2026-10-12,JE-1101,ach,T243171768,Vendor payment - Iron Mountain Bill-6282,-20196.72
+OPERATING,2026-10-12,JE-1105,ach,T406798268,Vendor payment - HubSpot Bill-3960,-6149.95
+OPERATING,2026-10-12,JE-1118,ach,,Vendor payment - Comcast Business Bill-5310,-2907.93
+OPERATING,2026-10-12,JE-1131,ach,,Vendor payment - Iron Mountain Bill-5010,-15239.81
+OPERATING,2026-10-12,JE-1147,ach,T587512424,Vendor payment - Adobe Inc Bill-3291,-6445.09
+OPERATING,2026-10-12,JE-1162,ach,T114682844,Vendor payment - Amazon Web Services Bill-5262,-15658.75
+OPERATING,2026-10-12,JE-1163,ach,,Vendor payment - Salesforce Bill-4890,-21830.82
+OPERATING,2026-10-12,JE-1170,ach,,Vendor payment - Uline Bill-4303,-18853.88
+OPERATING,2026-10-12,JE-1177,ach,,Vendor payment - Puget Sound Energy Bill-3403,-16466.85
+OPERATING,2026-10-12,JE-1185,ach,T417690559,Vendor payment - WeWork Bill-5864,-8482.81
+OPERATING,2026-10-12,JE-1199,ach,T587096273,Vendor payment - WeWork Bill-4519,-19536.62
+OPERATING,2026-10-12,JE-1212,ach,T940983577,Vendor payment - Grainger Bill-6722,-20807.33
+OPERATING,2026-10-12,JE-1233,check,10452,Check 10452 - Ballard Signs,-5542.27
+OPERATING,2026-10-13,JE-1013,deposit,INV-27428,Customer payment - Maple Street Bakery INV-27428,29152.27
+OPERATING,2026-10-13,JE-1028,deposit,INV-28201,Customer payment - Acme Robotics INV-28201,34645.36
+OPERATING,2026-10-13,JE-1084,deposit,INV-25753,Customer payment - Cobalt Logistics INV-25753,29404.46
+OPERATING,2026-10-13,JE-1111,ach,T460916347,Vendor payment - Zoom Video Bill-5739,-9673.02
+OPERATING,2026-10-13,JE-1129,ach,,Vendor payment - Cintas Bill-5872,-7586.4
+OPERATING,2026-10-13,JE-1148,ach,,Vendor payment - Zoom Video Bill-5708,-17364.04
+OPERATING,2026-10-13,JE-1153,ach,T824022357,Vendor payment - Delta Dental Bill-6424,-715.15
+OPERATING,2026-10-13,JE-1154,ach,,Vendor payment - Amazon Web Services Bill-3717,-12741.0
+OPERATING,2026-10-13,JE-1155,ach,,Vendor payment - Kaiser Permanente Bill-5600,-4115.54
+OPERATING,2026-10-13,JE-1182,ach,,Vendor payment - Kaiser Permanente Bill-4905,-14720.47
+OPERATING,2026-10-13,JE-1184,ach,T513061224,Vendor payment - DocuSign Bill-6495,-10131.86
+OPERATING,2026-10-13,JE-1188,ach,,Vendor payment - FedEx Bill-5700,-14959.15
+OPERATING,2026-10-13,JE-1210,ach,,Vendor payment - Staples Bill-5154,-1294.92
+OPERATING,2026-10-13,JE-1236,check,10455,Check 10455 - Fremont Events,-6070.77
+OPERATING,2026-10-13,JE-1242,check,10461,Check 10461 - Elliott Bay Catering,-5116.77
+OPERATING,2026-10-13,JE-1270,deposit,INV-25562,Stripe receipt - Juniper Foods INV-25562,3107.86
+OPERATING,2026-10-13,JE-1271,deposit,INV-21251,Stripe receipt - Foxglove Labs INV-21251,4552.42
+OPERATING,2026-10-14,JE-1012,deposit,INV-21307,Customer payment - Harborview Hotels INV-21307,38706.32
+OPERATING,2026-10-14,JE-1029,deposit,INV-28317,Customer payment - Driftwood Media INV-28317,27990.2
+OPERATING,2026-10-14,JE-1066,deposit,INV-28666,Customer payment - Redwood Capital INV-28666,1840.31
+OPERATING,2026-10-14,JE-1094,ach,,Vendor payment - Puget Sound Energy Bill-5484,-4742.49
+OPERATING,2026-10-14,JE-1097,ach,T126226563,Vendor payment - Zoom Video Bill-3189,-5058.4
+OPERATING,2026-10-14,JE-1120,ach,T434961542,Vendor payment - Staples Bill-5358,-2511.96
+OPERATING,2026-10-14,JE-1179,ach,,Vendor payment - Adobe Inc Bill-4000,-7982.42
+OPERATING,2026-10-14,JE-1187,ach,T961067882,Vendor payment - HubSpot Bill-4443,-17099.94
+OPERATING,2026-10-14,JE-1213,ach,,Vendor payment - Grainger Bill-3249,-10158.23
+OPERATING,2026-10-14,JE-1246,transfer,XFER-1014,Transfer to payroll account,-142380.55
+OPERATING,2026-10-14,JE-1272,deposit,INV-28693,Stripe receipt - Driftwood Media INV-28693,4549.76
+OPERATING,2026-10-14,JE-1273,deposit,INV-25752,Stripe receipt - Lumen Energy INV-25752,5636.9
+OPERATING,2026-10-15,JE-1007,deposit,INV-21674,Customer payment - Granite Analytics INV-21674,5534.44
+OPERATING,2026-10-15,JE-1031,deposit,INV-28005,Customer payment - Acme Robotics INV-28005,2347.24
+OPERATING,2026-10-15,JE-1061,deposit,INV-23910,Customer payment - Granite Analytics INV-23910,13054.23
+OPERATING,2026-10-15,JE-1071,deposit,INV-22143,Customer payment - Acme Robotics INV-22143,29214.43
+OPERATING,2026-10-15,JE-1085,deposit,INV-20452,Customer payment - Redwood Capital INV-20452,6517.37
+OPERATING,2026-10-15,JE-1091,ach,T422468580,Vendor payment - Delta Dental Bill-5077,-14645.02
+OPERATING,2026-10-15,JE-1092,ach,T236674237,Vendor payment - DocuSign Bill-3785,-8942.45
+OPERATING,2026-10-15,JE-1106,ach,T261953189,Vendor payment - Delta Dental Bill-3947,-19662.64
+OPERATING,2026-10-15,JE-1128,ach,,Vendor payment - Uline Bill-3744,-777.09
+OPERATING,2026-10-15,JE-1140,ach,T612957813,Vendor payment - Kaiser Permanente Bill-3467,-4178.35
+OPERATING,2026-10-15,JE-1207,ach,,Vendor payment - Zoom Video Bill-5441,-17069.95
+OPERATING,2026-10-15,JE-1215,ach,T395296179,Vendor payment - Salesforce Bill-5557,-13441.3
+OPERATING,2026-10-15,JE-1216,ach,,Vendor payment - Iron Mountain Bill-4207,-8472.76
+OPERATING,2026-10-15,JE-1232,check,10451,Check 10451 - Cascade Janitorial,-917.92
+OPERATING,2026-10-16,JE-1008,deposit,INV-29891,Customer payment - Lumen Energy INV-29891,13006.66
+OPERATING,2026-10-16,JE-1014,deposit,INV-25820,Customer payment - Foxglove Labs INV-25820,10613.56
+OPERATING,2026-10-16,JE-1077,deposit,INV-29173,Customer payment - Driftwood Media INV-29173,39959.86
+OPERATING,2026-10-16,JE-1087,deposit,INV-25139,Customer payment - Nimbus Software INV-25139,20483.13
+OPERATING,2026-10-16,JE-1090,deposit,INV-27066,Customer payment - Granite Analytics INV-27066,4543.86
+OPERATING,2026-10-16,JE-1119,ach,,Vendor payment - Slack Technologies Bill-6063,-3816.19
+OPERATING,2026-10-16,JE-1123,ach,,Vendor payment - Adobe Inc Bill-3282,-11790.48
+OPERATING,2026-10-16,JE-1156,ach,T212313264,Vendor payment - HubSpot Bill-6513,-9072.41
+OPERATING,2026-10-16,JE-1160,ach,,Vendor payment - Grainger Bill-4810,-13754.55
+OPERATING,2026-10-16,JE-1225,ach,T342836476,Vendor payment - Iron Mountain Bill-6306,-2660.24
+OPERATING,2026-10-16,JE-1230,ach,T709448939,Vendor payment - Staples Bill-5442,-6959.28
+OPERATING,2026-10-16,JE-1269,ach,,Vendor payment - Office Depot Bill-6012,-1524.0
+OPERATING,2026-10-19,JE-1016,deposit,INV-24422,Customer payment - Orchid Retail INV-24422,44544.27
+OPERATING,2026-10-19,JE-1022,deposit,INV-25930,Customer payment - Summit Outdoor INV-25930,11040.45
+OPERATING,2026-10-19,JE-1081,deposit,INV-20634,Customer payment - Driftwood Media INV-20634,38848.81
+OPERATING,2026-10-19,JE-1088,deposit,INV-29446,Customer payment - Driftwood Media INV-29446,9768.43
+OPERATING,2026-10-19,JE-1115,ach,,Vendor payment - Delta Dental Bill-4726,-6229.91
+OPERATING,2026-10-19,JE-1121,ach,T735760237,Vendor payment - Uline Bill-5828,-20721.13
+OPERATING,2026-10-19,JE-1169,ach,T302563940,Vendor payment - Iron Mountain Bill-5856,-10099.28
+OPERATING,2026-10-19,JE-1171,ach,,Vendor payment - Uline Bill-5670,-21746.85
+OPERATING,2026-10-19,JE-1186,ach,,Vendor payment - Amazon Web Services Bill-5809,-6147.4
+OPERATING,2026-10-19,JE-1239,check,10458,Check 10458 - Sound Movers,-2448.57
+OPERATING,2026-10-20,JE-1005,deposit,INV-23611,Customer payment - Redwood Capital INV-23611,21040.59
+OPERATING,2026-10-20,JE-1045,deposit,INV-27651,Customer payment - Nimbus Software INV-27651,39076.9
+OPERATING,2026-10-20,JE-1053,deposit,INV-29105,Customer payment - Juniper Foods INV-29105,30291.4
+OPERATING,2026-10-20,JE-1103,ach,,Vendor payment - Grainger Bill-6674,-18297.94
+OPERATING,2026-10-20,JE-1157,ach,T529982328,Vendor payment - Delta Dental Bill-6332,-15306.77
+OPERATING,2026-10-20,JE-1200,ach,,Vendor payment - Iron Mountain Bill-6626,-12983.39
+OPERATING,2026-10-20,JE-1214,ach,,Vendor payment - Uline Bill-6726,-15141.23
+OPERATING,2026-10-20,JE-1218,ach,T463925049,Vendor payment - FedEx Bill-6389,-10016.47
+OPERATING,2026-10-20,JE-1219,ach,T435569630,Vendor payment - Uline Bill-5724,-16092.03
+OPERATING,2026-10-20,JE-1244,ach,,Vendor payment - Brightline Consulting Bill-5120,-2500.0
+OPERATING,2026-10-20,JE-1245,ach,,Vendor payment - Northwind Design Studio Bill-5121,-2500.0
+OPERATING,2026-10-21,JE-1020,deposit,INV-22340,Customer payment - Maple Street Bakery INV-22340,13022.29
+OPERATING,2026-10-21,JE-1025,deposit,INV-28669,Customer payment - Maple Street Bakery INV-28669,12436.51
+OPERATING,2026-10-21,JE-1037,deposit,INV-28479,Customer payment - Lumen Energy INV-28479,21139.65
+OPERATING,2026-10-21,JE-1062,deposit,INV-25180,Customer payment - Juniper Foods INV-25180,41912.3
+OPERATING,2026-10-21,JE-1063,deposit,INV-29224,Customer payment - Acme Robotics INV-29224,44830.2
+OPERATING,2026-10-21,JE-1072,deposit,INV-29038,Customer payment - Foxglove Labs INV-29038,32196.53
+OPERATING,2026-10-21,JE-1082,deposit,INV-25728,Customer payment - Granite Analytics INV-25728,14775.8
+OPERATING,2026-10-21,JE-1095,ach,T608079792,Vendor payment - Kaiser Permanente Bill-6251,-9811.19
+OPERATING,2026-10-21,JE-1104,ach,T784683755,Vendor payment - HubSpot Bill-4135,-5813.34
+OPERATING,2026-10-21,JE-1134,ach,T229553265,Vendor payment - Cintas Bill-5954,-6069.52
+OPERATING,2026-10-21,JE-1151,ach,,Vendor payment - Puget Sound Energy Bill-5866,-2867.13
+OPERATING,2026-10-21,JE-1158,ach,T224469868,Vendor payment - Adobe Inc Bill-6973,-2074.11
+OPERATING,2026-10-21,JE-1178,ach,T131081879,Vendor payment - WeWork Bill-3188,-3785.07
+OPERATING,2026-10-21,JE-1195,ach,,Vendor payment - WeWork Bill-4073,-8203.6
+OPERATING,2026-10-22,JE-1023,deposit,INV-21489,Customer payment - Quarry Construction INV-21489,34376.52
+OPERATING,2026-10-22,JE-1043,deposit,INV-23981,Customer payment - Summit Outdoor INV-23981,35630.94
+OPERATING,2026-10-22,JE-1099,ach,T838328947,Vendor payment - Uline Bill-3022,-8882.42
+OPERATING,2026-10-22,JE-1116,ach,,Vendor payment - Salesforce Bill-6899,-573.52
+OPERATING,2026-10-22,JE-1126,ach,,Vendor payment - Iron Mountain Bill-5426,-10307.49
+OPERATING,2026-10-22,JE-1133,ach,T900942073,Vendor payment - Cintas Bill-5254,-12243.38
+OPERATING,2026-10-22,JE-1136,ach,,Vendor payment - FedEx Bill-6113,-6191.52
+OPERATING,2026-10-22,JE-1139,ach,T405307028,Vendor payment - Comcast Business Bill-4922,-2391.54
+OPERATING,2026-10-22,JE-1141,ach,,Vendor payment - Uline Bill-3219,-1768.7
+OPERATING,2026-10-22,JE-1164,ach,T857429971,Vendor payment - Comcast Business Bill-4119,-20528.47
+OPERATING,2026-10-22,JE-1165,ach,,Vendor payment - HubSpot Bill-4571,-5475.52
+OPERATING,2026-10-22,JE-1176,ach,T173466219,Vendor payment - Delta Dental Bill-3961,-19211.57
+OPERATING,2026-10-22,JE-1181,ach,T595155950,Vendor payment - Zoom Video Bill-5612,-20095.31
+OPERATING,2026-10-22,JE-1201,ach,,Vendor payment - WeWork Bill-4145,-13602.0
+OPERATING,2026-10-22,JE-1211,ach,T737444033,Vendor payment - Salesforce Bill-3446,-9944.81
+OPERATING,2026-10-22,JE-1243,ach,,Corporate card payment - American Express,-13643.4
+OPERATING,2026-10-22,JE-1259,check,10462,Check 10462 - Ballard Signs,-3568.38
+OPERATING,2026-10-23,JE-1035,deposit,INV-29938,Customer payment - Ironclad Security INV-29938,19906.5
+OPERATING,2026-10-23,JE-1041,deposit,INV-23899,Customer payment - Cobalt Logistics INV-23899,13613.76
+OPERATING,2026-10-23,JE-1130,ach,T873174285,Vendor payment - Amazon Web Services Bill-4664,-20865.17
+OPERATING,2026-10-23,JE-1143,ach,,Vendor payment - Zoom Video Bill-4217,-8461.26
+OPERATING,2026-10-23,JE-1167,ach,T879591310,Vendor payment - Delta Dental Bill-4222,-5987.72
+OPERATING,2026-10-23,JE-1260,check,10463,Check 10463 - Ballard Signs,-1950.24
+OPERATING,2026-10-26,JE-1002,deposit,INV-21424,Customer payment - Driftwood Media INV-21424,27186.42
+OPERATING,2026-10-26,JE-1004,deposit,INV-23257,Customer payment - Acme Robotics INV-23257,32646.85
+OPERATING,2026-10-26,JE-1009,deposit,INV-22045,Customer payment - Orchid Retail INV-22045,43830.54
+OPERATING,2026-10-26,JE-1010,deposit,INV-24803,Customer payment - Cobalt Logistics INV-24803,37579.1
+OPERATING,2026-10-26,JE-1021,deposit,INV-24304,Customer payment - Redwood Capital INV-24304,33995.1
+OPERATING,2026-10-26,JE-1042,deposit,INV-22167,Customer payment - Granite Analytics INV-22167,32965.84
+OPERATING,2026-10-26,JE-1049,deposit,INV-21604,Customer payment - Orchid Retail INV-21604,3700.59
+OPERATING,2026-10-26,JE-1055,deposit,INV-20998,Customer payment - Summit Outdoor INV-20998,34036.94
+OPERATING,2026-10-26,JE-1074,deposit,INV-20590,Customer payment - Evergreen Dental INV-20590,37804.88
+OPERATING,2026-10-26,JE-1102,ach,,Vendor payment - Grainger Bill-6651,-13160.63
+OPERATING,2026-10-26,JE-1110,ach,,Vendor payment - DocuSign Bill-5470,-16483.22
+OPERATING,2026-10-26,JE-1138,ach,T158546865,Vendor payment - Amazon Web Services Bill-5266,-2915.84
+OPERATING,2026-10-26,JE-1149,ach,T385220694,Vendor payment - WeWork Bill-6385,-5062.09
+OPERATING,2026-10-26,JE-1152,ach,T142800191,Vendor payment - Grainger Bill-6643,-10939.43
+OPERATING,2026-10-26,JE-1161,ach,T849740261,Vendor payment - Slack Technologies Bill-4985,-3012.64
+OPERATING,2026-10-26,JE-1194,ach,,Vendor payment - Uline Bill-3057,-8142.18
+OPERATING,2026-10-26,JE-1203,ach,,Vendor payment - Cintas Bill-3248,-19852.06
+OPERATING,2026-10-26,JE-1222,ach,T479673044,Vendor payment - Iron Mountain Bill-6578,-7352.76
+OPERATING,2026-10-26,JE-1226,ach,,Vendor payment - Iron Mountain Bill-6397,-723.65
+OPERATING,2026-10-27,JE-1011,deposit,INV-23150,Customer payment - Lumen Energy INV-23150,32148.87
+OPERATING,2026-10-27,JE-1019,deposit,INV-25155,Customer payment - Granite Analytics INV-25155,10749.25
+OPERATING,2026-10-27,JE-1039,deposit,INV-23608,Customer payment - Harborview Hotels INV-23608,1812.8
+OPERATING,2026-10-27,JE-1056,deposit,INV-27811,Customer payment - Bluepeak Health INV-27811,23373.99
+OPERATING,2026-10-27,JE-1059,deposit,INV-29740,Customer payment - Harborview Hotels INV-29740,3228.76
+OPERATING,2026-10-27,JE-1060,deposit,INV-29260,Customer payment - Nimbus Software INV-29260,24241.05
+OPERATING,2026-10-27,JE-1086,deposit,INV-24349,Customer payment - Foxglove Labs INV-24349,3164.19
+OPERATING,2026-10-27,JE-1109,ach,T477698143,Vendor payment - Amazon Web Services Bill-4223,-8461.33
+OPERATING,2026-10-27,JE-1113,ach,T790147183,Vendor payment - Uline Bill-4755,-12481.96
+OPERATING,2026-10-27,JE-1144,ach,,Vendor payment - Puget Sound Energy Bill-6031,-13719.45
+OPERATING,2026-10-27,JE-1261,check,10464,Check 10464 - Ballard Signs,-418.88
+OPERATING,2026-10-28,JE-1264,deposit,INV-21443,Customer payment - Lumen Energy INV-21443,14791.22
+OPERATING,2026-10-29,JE-1252,transfer,XFER-1029,Transfer to payroll account,-139912.1
+OPERATING,2026-10-29,JE-1262,check,10465,Check 10465 - Capitol Hill Locksmith,-1279.68
+OPERATING,2026-10-29,JE-1265,deposit,INV-23986,Customer payment - Driftwood Media INV-23986,14763.27
+OPERATING,2026-10-30,JE-1263,check,10466,Check 10466 - Fremont Events,-5042.55
+OPERATING,2026-10-30,JE-1266,deposit,INV-28584,Customer payment - Maple Street Bakery INV-28584,5123.47
+PAYROLL,2026-10-05,JE-1258,ach,,Gusto monthly platform fee,-183.45
+PAYROLL,2026-10-14,JE-1247,transfer,XFER-1014,Transfer from operating account,142380.55
+PAYROLL,2026-10-15,JE-1248,ach,,Payroll 10/15 - net pay,-96818.77
+PAYROLL,2026-10-15,JE-1249,ach,,Payroll 10/15 - payroll taxes,-34171.33
+PAYROLL,2026-10-15,JE-1250,ach,,Payroll 10/15 - 401(k),-7119.03
+PAYROLL,2026-10-15,JE-1251,ach,,Payroll 10/15 - benefits,-4271.42
+PAYROLL,2026-10-29,JE-1253,transfer,XFER-1029,Transfer from operating account,139912.1
+PAYROLL,2026-10-30,JE-1254,ach,,Payroll 10/30 - net pay,-95140.23
+PAYROLL,2026-10-30,JE-1255,ach,,Payroll 10/30 - payroll taxes,-33578.9
+PAYROLL,2026-10-30,JE-1256,ach,,Payroll 10/30 - 401(k),-6995.61
+PAYROLL,2026-10-30,JE-1257,ach,,Payroll 10/30 - benefits,-4197.36

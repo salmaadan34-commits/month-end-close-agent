@@ -96,6 +96,10 @@ python -m preclose         # add --llm for Claude to polish the commentary
 - **Result on the sample month (108 lines, 4 months of history):** 13 of 13 planted issues found and 9 accounts flagged, each with the correct driver.
 - **Outputs:** [`examples/close_review_2026-10.xlsx`](examples/close_review_2026-10.xlsx) and a draft CFO memo, [`examples/flux_commentary_2026-10.md`](examples/flux_commentary_2026-10.md).
 
+### Machine-readable outputs
+
+Both modules also write a JSON summary (`examples/bank_rec_summary_2026-10.json`, `examples/preclose_summary_2026-10.json`). The [Controller AI Team](https://github.com/salmaadan34-commits/controller-ai-team) hub reads these files, so its Close team shows this agent's real results.
+
 ## Sample data
 
 `data/2026-10/` is an October close for **Northwind Analytics, Inc.**, a fictional SaaS company. Run `python scripts/generate_sample_data.py` to rebuild it. Issues were planted in it on purpose so the agent has something to find:

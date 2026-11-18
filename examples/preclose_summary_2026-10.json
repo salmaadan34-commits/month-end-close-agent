@@ -1,0 +1,425 @@
+{
+ "module": "preclose",
+ "period": "2026-10",
+ "stats": {
+  "lines_checked": 108,
+  "jes_checked": 28
+ },
+ "findings": [
+  {
+   "id": "PC-01",
+   "severity": "High",
+   "check": "Cutoff",
+   "je_number": "JE-202610-026",
+   "date": "2026-10-28",
+   "account": "6400",
+   "counterparty": "Pemberton Legal LLP",
+   "amount": 9500.0,
+   "issue": "Service period 2026-11 booked in 2026-10.",
+   "fix": "Move to 1400 Prepaid; expense in the service month.",
+   "reclass": [
+    [
+     "1400",
+     "Prepaid Expenses",
+     9500.0,
+     0,
+     "Cutoff Pemberton Legal LLP"
+    ],
+    [
+     "6400",
+     "Professional Fees",
+     0,
+     9500.0,
+     "Cutoff Pemberton Legal LLP"
+    ]
+   ]
+  },
+  {
+   "id": "PC-02",
+   "severity": "High",
+   "check": "Duplicate",
+   "je_number": "JE-202610-013",
+   "date": "2026-10-12",
+   "account": "6100",
+   "counterparty": "HubSpot",
+   "amount": 3872.58,
+   "issue": "Invoice HS-20261040 from HubSpot already booked in JE-202610-014.",
+   "fix": "Void JE-202610-013; confirm vendor was not paid twice.",
+   "reclass": [
+    [
+     "2000",
+     "Accounts Payable",
+     3872.58,
+     0,
+     "Void duplicate HubSpot"
+    ],
+    [
+     "6100",
+     "Software Subscriptions",
+     0,
+     3872.58,
+     "Void duplicate HubSpot"
+    ]
+   ]
+  },
+  {
+   "id": "PC-03",
+   "severity": "High",
+   "check": "Missing approval",
+   "je_number": "JE-202610-028",
+   "date": "2026-10-30",
+   "account": "6400",
+   "counterparty": "",
+   "amount": 6000.0,
+   "issue": "Manual JE 'Accrued audit fees' by jsmith has no approver.",
+   "fix": "Obtain approval with support before close.",
+   "reclass": []
+  },
+  {
+   "id": "PC-04",
+   "severity": "High",
+   "check": "Segregation of duties",
+   "je_number": "JE-202610-007",
+   "date": "2026-10-30",
+   "account": "6000",
+   "counterparty": "",
+   "amount": 10000.0,
+   "issue": "Manual JE 'Accrued bonus' created and approved by mlee.",
+   "fix": "Have an independent reviewer approve; note as a control exception.",
+   "reclass": []
+  },
+  {
+   "id": "PC-05",
+   "severity": "High",
+   "check": "Unbalanced JE",
+   "je_number": "JE-202610-027",
+   "date": "2026-10-30",
+   "account": "6310",
+   "counterparty": "",
+   "amount": 500.0,
+   "issue": "Debits 5,000.00 vs credits 4,500.00 (out by 500.00).",
+   "fix": "Return to preparer; correct the entry before posting.",
+   "reclass": []
+  },
+  {
+   "id": "PC-06",
+   "severity": "High",
+   "check": "Wrong account",
+   "je_number": "JE-202610-019",
+   "date": "2026-10-06",
+   "account": "5000",
+   "counterparty": "Staples",
+   "amount": 1218.54,
+   "issue": "Staples coded to 5000 Hosting (COGS); history is 6500 Office Supplies (3 of 3 months).",
+   "fix": "Reclass to 6500 Office Supplies.",
+   "reclass": [
+    [
+     "6500",
+     "Office Supplies",
+     1218.54,
+     0,
+     "Reclass Staples"
+    ],
+    [
+     "5000",
+     "Hosting (COGS)",
+     0,
+     1218.54,
+     "Reclass Staples"
+    ]
+   ]
+  },
+  {
+   "id": "PC-07",
+   "severity": "High",
+   "check": "Wrong account",
+   "je_number": "JE-202610-016",
+   "date": "2026-10-22",
+   "account": "6100",
+   "counterparty": "WeWork",
+   "amount": 18822.03,
+   "issue": "WeWork coded to 6100 Software Subscriptions; history is 6200 Rent (3 of 3 months).",
+   "fix": "Reclass to 6200 Rent.",
+   "reclass": [
+    [
+     "6200",
+     "Rent",
+     18822.03,
+     0,
+     "Reclass WeWork"
+    ],
+    [
+     "6100",
+     "Software Subscriptions",
+     0,
+     18822.03,
+     "Reclass WeWork"
+    ]
+   ]
+  },
+  {
+   "id": "PC-08",
+   "severity": "Medium",
+   "check": "Missing field",
+   "je_number": "JE-202610-012",
+   "date": "2026-10-09",
+   "account": "6100",
+   "counterparty": "Zoom",
+   "amount": 885.04,
+   "issue": "Department missing on expense line.",
+   "fix": "Assign department (needed for dept P&L and budget reporting).",
+   "reclass": []
+  },
+  {
+   "id": "PC-09",
+   "severity": "Medium",
+   "check": "Missing field",
+   "je_number": "JE-202610-020",
+   "date": "2026-10-15",
+   "account": "6500",
+   "counterparty": "Uline",
+   "amount": 598.92,
+   "issue": "Department missing on expense line.",
+   "fix": "Assign department (needed for dept P&L and budget reporting).",
+   "reclass": []
+  },
+  {
+   "id": "PC-10",
+   "severity": "Medium",
+   "check": "Missing field",
+   "je_number": "JE-202610-010",
+   "date": "2026-10-26",
+   "account": "6100",
+   "counterparty": "Adobe",
+   "amount": 1422.84,
+   "issue": "Department missing on expense line.",
+   "fix": "Assign department (needed for dept P&L and budget reporting).",
+   "reclass": []
+  },
+  {
+   "id": "PC-11",
+   "severity": "Medium",
+   "check": "Missing field",
+   "je_number": "JE-202610-021",
+   "date": "2026-10-28",
+   "account": "6600",
+   "counterparty": "",
+   "amount": 3496.36,
+   "issue": "Vendor missing on AP expense line.",
+   "fix": "Attach vendor (1099 tracking, spend analysis).",
+   "reclass": []
+  },
+  {
+   "id": "PC-12",
+   "severity": "Medium",
+   "check": "Unusual amount",
+   "je_number": "JE-202610-009",
+   "date": "2026-10-08",
+   "account": "6100",
+   "counterparty": "Salesforce",
+   "amount": 24800.0,
+   "issue": "24,800.00 is 4.0x Salesforce's typical 6,261.06. Memo: 'Salesforce annual renewal'.",
+   "fix": "Annual charge: book to 1400 Prepaid and amortize 2,066.67/month.",
+   "reclass": [
+    [
+     "1400",
+     "Prepaid Expenses",
+     22733.33,
+     0,
+     "Prepay Salesforce"
+    ],
+    [
+     "6100",
+     "Software Subscriptions",
+     0,
+     22733.33,
+     "Prepay Salesforce"
+    ]
+   ]
+  },
+  {
+   "id": "PC-13",
+   "severity": "Medium",
+   "check": "Unusual amount",
+   "je_number": "JE-202610-017",
+   "date": "2026-10-28",
+   "account": "6300",
+   "counterparty": "Google Ads",
+   "amount": 38400.0,
+   "issue": "38,400.00 is 3.2x Google Ads's typical 11,855.83. Memo: 'Q4 lead-gen campaign'.",
+   "fix": "Confirm with budget owner; check for prepaid or one-time item.",
+   "reclass": []
+  },
+  {
+   "id": "PC-14",
+   "severity": "Low",
+   "check": "Missing field",
+   "je_number": "JE-202610-022",
+   "date": "2026-10-16",
+   "account": "6700",
+   "counterparty": "Comcast Business",
+   "amount": 449.45,
+   "issue": "Memo blank.",
+   "fix": "Add description so the entry is auditable.",
+   "reclass": []
+  }
+ ],
+ "flux": [
+  {
+   "account": "4000",
+   "name": "Subscription Revenue",
+   "type": "Revenue",
+   "current": 266160.0,
+   "prior": 236160.0,
+   "var": 30000.0,
+   "pct": 0.127,
+   "budget": 251200.0,
+   "flagged": true,
+   "commentary": "Subscription Revenue up $30.0K (+13%) vs prior month; $15.0K over budget. Drivers: Northstar Payments $18.0K new this month; Copperline Bank $12.0K new this month."
+  },
+  {
+   "account": "5000",
+   "name": "Hosting (COGS)",
+   "type": "Expense",
+   "current": 60118.54,
+   "prior": 45969.85,
+   "var": 14148.69,
+   "pct": 0.3078,
+   "budget": 46900.0,
+   "flagged": true,
+   "commentary": "Hosting (COGS) up $14.1K (+31%) vs prior month; $13.2K over budget. Drivers: Amazon Web Services +$12.9K (Cloud hosting - usage spike from new customer onboarding)."
+  },
+  {
+   "account": "6000",
+   "name": "Salaries & Wages",
+   "type": "Expense",
+   "current": 511000.0,
+   "prior": 460000.0,
+   "var": 51000.0,
+   "pct": 0.1109,
+   "budget": 494000.0,
+   "flagged": true,
+   "commentary": "Salaries & Wages up $51.0K (+11%) vs prior month; $17.0K over budget. Drivers: Engineering +$51.0K (Payroll 2026-10 - Engineering (incl. 3 new hires))."
+  },
+  {
+   "account": "6010",
+   "name": "Payroll Taxes",
+   "type": "Expense",
+   "current": 38326.5,
+   "prior": 34425.0,
+   "var": 3901.5,
+   "pct": 0.1133,
+   "budget": 35100.0,
+   "flagged": false,
+   "commentary": ""
+  },
+  {
+   "account": "6020",
+   "name": "Employee Benefits",
+   "type": "Expense",
+   "current": 60120.0,
+   "prior": 54000.0,
+   "var": 6120.0,
+   "pct": 0.1133,
+   "budget": 55100.0,
+   "flagged": true,
+   "commentary": "Employee Benefits up $6.1K (+11%) vs prior month; $5.0K over budget. Drivers: Engineering +$6.1K (Payroll 2026-10 - Engineering (incl. 3 new hires))."
+  },
+  {
+   "account": "6100",
+   "name": "Software Subscriptions",
+   "type": "Expense",
+   "current": 56459.95,
+   "prior": 15051.56,
+   "var": 41408.39,
+   "pct": 2.7511,
+   "budget": 15400.0,
+   "flagged": true,
+   "commentary": "Software Subscriptions up $41.4K (+275%) vs prior month; $41.1K over budget. Drivers: WeWork $18.8K new this month (Office rent - Seattle) [see PC-07: Wrong account]; Salesforce +$18.5K (Salesforce annual renewal) [see PC-12: Unusual amount]. Part of this change comes from items flagged in pre-close; resolve those before finalizing."
+  },
+  {
+   "account": "6200",
+   "name": "Rent",
+   "type": "Expense",
+   "current": 0.0,
+   "prior": 18003.36,
+   "var": -18003.36,
+   "pct": -1.0,
+   "budget": 18400.0,
+   "flagged": true,
+   "commentary": "Rent down $18.0K (-100%) vs prior month; $18.4K under budget. Drivers: WeWork $18.0K not booked here this month [see PC-07: Wrong account]. Part of this change comes from items flagged in pre-close; resolve those before finalizing."
+  },
+  {
+   "account": "6300",
+   "name": "Marketing - Advertising",
+   "type": "Expense",
+   "current": 42900.0,
+   "prior": 11748.91,
+   "var": 31151.09,
+   "pct": 2.6514,
+   "budget": 30000.0,
+   "flagged": true,
+   "commentary": "Marketing - Advertising up $31.2K (+265%) vs prior month; $12.9K over budget. Drivers: Google Ads +$26.7K (Q4 lead-gen campaign) [see PC-13: Unusual amount]; LinkedIn Ads $9.0K new this month (Q4 ABM campaign). Part of this change comes from items flagged in pre-close; resolve those before finalizing."
+  },
+  {
+   "account": "6310",
+   "name": "Marketing - Events",
+   "type": "Expense",
+   "current": 30000.0,
+   "prior": 0.0,
+   "var": 30000.0,
+   "pct": null,
+   "budget": 20000.0,
+   "flagged": true,
+   "commentary": "Marketing - Events up $30.0K (n/m - nothing booked last month) vs prior month; $10.0K over budget. Drivers: FinTech Summit $25.0K new this month (FinTech Summit 2026 sponsorship); Reclass booth costs to events $5.0K new this month [see PC-05: Unbalanced JE]. Part of this change comes from items flagged in pre-close; resolve those before finalizing."
+  },
+  {
+   "account": "6400",
+   "name": "Professional Fees",
+   "type": "Expense",
+   "current": 24969.92,
+   "prior": 9564.83,
+   "var": 15405.09,
+   "pct": 1.6106,
+   "budget": 9800.0,
+   "flagged": true,
+   "commentary": "Professional Fees up $15.4K (+161%) vs prior month; $15.2K over budget. Drivers: Pemberton Legal LLP +$9.4K (Legal retainer - November) [see PC-01: Cutoff]; Accrued audit fees $6.0K new this month [see PC-03: Missing approval]. Part of this change comes from items flagged in pre-close; resolve those before finalizing."
+  },
+  {
+   "account": "6500",
+   "name": "Office Supplies",
+   "type": "Expense",
+   "current": 598.92,
+   "prior": 1849.64,
+   "var": -1250.72,
+   "pct": -0.6762,
+   "budget": 1900.0,
+   "flagged": false,
+   "commentary": ""
+  },
+  {
+   "account": "6600",
+   "name": "Travel & Meals",
+   "type": "Expense",
+   "current": 3496.36,
+   "prior": 3471.47,
+   "var": 24.89,
+   "pct": 0.0072,
+   "budget": 3500.0,
+   "flagged": false,
+   "commentary": ""
+  },
+  {
+   "account": "6700",
+   "name": "Utilities & Telecom",
+   "type": "Expense",
+   "current": 1522.05,
+   "prior": 1558.35,
+   "var": -36.3,
+   "pct": -0.0233,
+   "budget": 1600.0,
+   "flagged": false,
+   "commentary": ""
+  }
+ ]
+}

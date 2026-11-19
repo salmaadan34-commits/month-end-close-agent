@@ -17,6 +17,7 @@ LLM_MODEL = "claude-sonnet-5-5"
 COA = {
     "OPERATING": ("1010", "Cash - Operating"),
     "PAYROLL": ("1020", "Cash - Payroll"),
+    "RESERVE": ("1030", "Cash - Money Market Reserve"),
     "AP": ("2000", "Accounts Payable"),
     "AR": ("1200", "Accounts Receivable"),
     "SUSPENSE": ("2999", "Suspense - Unidentified Cash"),

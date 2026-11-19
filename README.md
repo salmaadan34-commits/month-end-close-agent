@@ -72,7 +72,7 @@ python -m bankrec          # add --llm for Claude review of unexplained items
   4. Many-to-one (one Stripe payout = 4 GL receipts)
   5. Claude review of anything left
 - **Classifies every open item:** outstanding checks, deposits in transit, stale checks (>60 days), unbooked fees and interest, duplicate GL entries, transposition errors (difference divisible by 9), unrecorded wires. Each comes with a balanced proposed JE.
-- **Result on the sample month (267 bank lines, 2 accounts):** 98% / 100% auto-matched, 16 of 16 planted exceptions caught, ties to $0.00.
+- **Result on the sample month (268 bank lines, 3 accounts):** 98% / 100% / 100% auto-matched, 16 of 16 planted exceptions caught, every account ties to $0.00. Adjusted book cash across operating, payroll and the money market reserve totals $4,995,000.00, which ties to Halden's October balance sheet in [CFO Control Center](https://github.com/salmaadan34-commits/cfo-control-center).
 - **Outputs:** the rec workpaper (live formulas), a daily cash position report and an audit log. See [`examples/bank_rec_2026-10.xlsx`](examples/bank_rec_2026-10.xlsx).
 
 ### Pre-close checks + driver-based flux (`preclose/`)

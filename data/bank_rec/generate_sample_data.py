@@ -1,7 +1,7 @@
 """Generate synthetic bank + GL data for October 2026 with seeded reconciliation issues.
 
 Writes:
-  bank_statement.csv     bank activity for two accounts (with running balance)
+  bank_statement.csv     bank activity for three accounts (with running balance)
   gl_cash_detail.csv     GL cash detail export (NetSuite/QBO style)
   prior_outstanding.csv  outstanding items carried forward from the September rec
   opening_balances.csv   GL and bank opening balances per account
@@ -192,10 +192,22 @@ for d in [date(2026, 10, 13), date(2026, 10, 13), date(2026, 10, 14), date(2026,
     G(OP, d, "deposit", inv, f"Stripe receipt - {c} {inv}", a)
 B(OP, date(2026, 10, 15), "STRIPE TRANSFER ST-8F2K9Q", "", round(sum(parts), 2))
 
+# ---------- Money market reserve (most of Halden's cash) ----------
+# Sized so October cash across all three accounts ties to Halden's balance sheet:
+# $4,995K month-end cash in cfo-control-center (data/balances.csv, 2026-10).
+# Interest is booked by treasury, so it matches. No rng calls here, so the other
+# accounts' generated data is unchanged.
+RS = "RESERVE"
+RS_INTEREST = 14215.40
+RS_OPENING = 3827272.57   # 3,827,272.57 + 14,215.40 = 3,841,487.97 at Oct 31
+used.add(RS_INTEREST)
+G(RS, date(2026, 10, 30), "deposit", "MMF-2610", "Money market interest - October", RS_INTEREST)
+B(RS, date(2026, 10, 30), "MONEY MARKET DIVIDEND MMF-2610", "MMF-2610", RS_INTEREST)
+
 # ---------- Write files ----------
-opening = {OP: (850000.00, 1010), PR: (25000.00, 1020)}
+opening = {OP: (850000.00, 1010), PR: (25000.00, 1020), RS: (RS_OPENING, 1030)}
 prior_total = sum(p["amount"] for p in prior)
-bank_open = {OP: round(opening[OP][0] - prior_total, 2), PR: opening[PR][0]}
+bank_open = {OP: round(opening[OP][0] - prior_total, 2), PR: opening[PR][0], RS: opening[RS][0]}
 
 bank.sort(key=lambda r: (r["account"], r["date"], -r["amount"]))
 bal = dict(bank_open)
@@ -218,6 +230,6 @@ write("gl_cash_detail.csv", gl, ["account", "date", "je_number", "type", "refere
 write("prior_outstanding.csv", prior, ["account", "date", "je_number", "type", "reference", "memo", "amount"])
 write("opening_balances.csv",
       [dict(account=a, gl_account=opening[a][1], gl_opening=opening[a][0], bank_opening=bank_open[a])
-       for a in (OP, PR)], ["account", "gl_account", "gl_opening", "bank_opening"])
+       for a in (OP, PR, RS)], ["account", "gl_account", "gl_opening", "bank_opening"])
 write("answer_key.csv", key, ["account", "side", "date", "amount", "description", "expected_category"])
 print(f"bank lines: {len(bank)} | GL lines: {len(gl)} | prior O/S: {len(prior)} | seeded issues: {len(key)}")

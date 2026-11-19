@@ -1,7 +1,7 @@
 {
  "module": "bankrec",
  "period_end": "2026-10-31",
- "matches": 262,
+ "matches": 263,
  "accounts": [
   {
    "account": "OPERATING",
@@ -26,6 +26,18 @@
    "match_rate": 1.0,
    "matched_lines": 11,
    "bank_lines": 11
+  },
+  {
+   "account": "RESERVE",
+   "gl_account": "1030",
+   "bank_end": 3841487.97,
+   "gl_end": 3841487.97,
+   "adjusted_bank": 3841487.97,
+   "adjusted_book": 3841487.97,
+   "difference": 0.0,
+   "match_rate": 1.0,
+   "matched_lines": 1,
+   "bank_lines": 1
   }
  ],
  "items": [

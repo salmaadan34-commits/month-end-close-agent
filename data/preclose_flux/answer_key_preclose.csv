@@ -1,6 +1,6 @@
 category,je_number,note
 Segregation of duties,JE-202610-007,Manual JE created and approved by the same user
-Unusual amount,JE-202610-009,4x normal monthly spend; annual renewal should go to prepaid
+Unusual amount,JE-202610-009,12 months billed at once (switched from monthly billing); 11 months belong in prepaid
 Missing field,JE-202610-010,Department missing
 Missing field,JE-202610-012,Department missing
 Duplicate,JE-202610-014,Same HubSpot invoice entered twice

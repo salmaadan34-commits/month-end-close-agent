@@ -343,8 +343,8 @@ JE-202610-007,1,2026-10-30,2026-10,6000,Salaries & Wages,G&A,,,2026-10,Accrued b
 JE-202610-007,2,2026-10-30,2026-10,2100,Accrued Liabilities,,,,2026-10,Accrued bonus,0,10000,Manual,mlee,mlee
 JE-202610-008,1,2026-10-13,2026-10,5000,Hosting (COGS),Engineering,Amazon Web Services,AWS-20261092,2026-10,Cloud hosting - usage spike from new customer onboarding,58900.0,0,AP,ap_bot,auto
 JE-202610-008,2,2026-10-13,2026-10,2000,Accounts Payable,,Amazon Web Services,AWS-20261092,2026-10,Cloud hosting - usage spike from new customer onboarding,0,58900.0,AP,ap_bot,auto
-JE-202610-009,1,2026-10-08,2026-10,6100,Software Subscriptions,Sales,Salesforce,SF-20261076,2026-10,Salesforce annual renewal,24800.0,0,AP,ap_bot,auto
-JE-202610-009,2,2026-10-08,2026-10,2000,Accounts Payable,,Salesforce,SF-20261076,2026-10,Salesforce annual renewal,0,24800.0,AP,ap_bot,auto
+JE-202610-009,1,2026-10-08,2026-10,6100,Software Subscriptions,Sales,Salesforce,SF-20261076,2026-10,"Salesforce annual renewal, Oct 2026-Sep 2027",74400.0,0,AP,ap_bot,auto
+JE-202610-009,2,2026-10-08,2026-10,2000,Accounts Payable,,Salesforce,SF-20261076,2026-10,"Salesforce annual renewal, Oct 2026-Sep 2027",0,74400.0,AP,ap_bot,auto
 JE-202610-010,1,2026-10-26,2026-10,6100,Software Subscriptions,,Adobe,ADB-20261055,2026-10,Creative Cloud licenses,1422.84,0,AP,ap_bot,auto
 JE-202610-010,2,2026-10-26,2026-10,2000,Accounts Payable,,Adobe,ADB-20261055,2026-10,Creative Cloud licenses,0,1422.84,AP,ap_bot,auto
 JE-202610-011,1,2026-10-15,2026-10,6100,Software Subscriptions,G&A,Slack,SLK-20261079,2026-10,Slack Business+,2135.16,0,AP,ap_bot,auto

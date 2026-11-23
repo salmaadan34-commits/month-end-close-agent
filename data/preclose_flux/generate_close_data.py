@@ -131,7 +131,7 @@ for y, m in MONTHS:
             if v == "Amazon Web Services":
                 amt, mm = 58900.00, "Cloud hosting - usage spike from new customer onboarding"
             if v == "Salesforce":
-                amt, mm = 24800.00, "Salesforce annual renewal"
+                amt, mm = 74400.00, "Salesforce annual renewal, Oct 2026-Sep 2027"
             if v == "Google Ads":
                 amt, mm = 38400.00, "Q4 lead-gen campaign"
             if v == "WeWork":
@@ -147,7 +147,7 @@ for y, m in MONTHS:
         n = ap(period, pick(), a, dp, cp, amt, mm, inv)
         if oct_:
             if v == "Salesforce":
-                pc("Unusual amount", n, "4x normal monthly spend; annual renewal should go to prepaid")
+                pc("Unusual amount", n, "12 months billed at once (switched from monthly billing); 11 months belong in prepaid")
             if v == "WeWork":
                 pc("Wrong account", n, "Rent coded to Software Subscriptions")
             if v == "Staples":

@@ -16,7 +16,7 @@
    "counterparty": "Pemberton Legal LLP",
    "amount": 9500.0,
    "issue": "Service period 2026-11 booked in 2026-10.",
-   "fix": "Move to 1400 Prepaid; expense in the service month.",
+   "fix": "Reclass 9,500.00 from 6400 Professional Fees to 1400 Prepaid Expenses (Dr 1400 / Cr 6400) to reverse the 2026-10 expense; expense it to 6400 in 2026-11, the service month.",
    "reclass": [
     [
      "1400",
@@ -217,14 +217,14 @@
    "date": "2026-10-08",
    "account": "6100",
    "counterparty": "Salesforce",
-   "amount": 24800.0,
-   "issue": "24,800.00 is 4.0x Salesforce's typical 6,261.06. Memo: 'Salesforce annual renewal'.",
-   "fix": "Annual charge: book to 1400 Prepaid and amortize 2,066.67/month.",
+   "amount": 74400.0,
+   "issue": "74,400.00 is 11.9x Salesforce's typical 6,261.06 (median of 3 monthly invoices, 2026-07 to 2026-09). Memo: 'Salesforce annual renewal, Oct 2026-Sep 2027'.",
+   "fix": "12-month charge. Reclass 68,200.00 from 6100 Software Subscriptions to 1400 Prepaid Expenses (Dr 1400 / Cr 6100), leaving one month (6,200.00) in 6100 Software Subscriptions; amortize 6,200.00/month to 6100 Software Subscriptions over the term.",
    "reclass": [
     [
      "1400",
      "Prepaid Expenses",
-     22733.33,
+     68200.0,
      0,
      "Prepay Salesforce"
     ],
@@ -232,7 +232,7 @@
      "6100",
      "Software Subscriptions",
      0,
-     22733.33,
+     68200.0,
      "Prepay Salesforce"
     ]
    ]
@@ -246,7 +246,7 @@
    "account": "6300",
    "counterparty": "Google Ads",
    "amount": 38400.0,
-   "issue": "38,400.00 is 3.2x Google Ads's typical 11,855.83. Memo: 'Q4 lead-gen campaign'.",
+   "issue": "38,400.00 is 3.2x Google Ads's typical 11,855.83 (median of 3 monthly invoices, 2026-07 to 2026-09). Memo: 'Q4 lead-gen campaign'.",
    "fix": "Confirm with budget owner; check for prepaid or one-time item.",
    "reclass": []
   },
@@ -329,13 +329,13 @@
    "account": "6100",
    "name": "Software Subscriptions",
    "type": "Expense",
-   "current": 56459.95,
+   "current": 106059.95,
    "prior": 15051.56,
-   "var": 41408.39,
-   "pct": 2.7511,
+   "var": 91008.39,
+   "pct": 6.0464,
    "budget": 15400.0,
    "flagged": true,
-   "commentary": "Software Subscriptions up $41.4K (+275%) vs prior month; $41.1K over budget. Drivers: WeWork $18.8K new this month (Office rent - Seattle) [see PC-07: Wrong account]; Salesforce +$18.5K (Salesforce annual renewal) [see PC-12: Unusual amount]. Part of this change comes from items flagged in pre-close; resolve those before finalizing."
+   "commentary": "Software Subscriptions up $91.0K (+605%) vs prior month; $90.7K over budget. Drivers: Salesforce +$68.1K (Salesforce annual renewal, Oct 2026-Sep 2027) [see PC-12: Unusual amount]; WeWork $18.8K new this month (Office rent - Seattle) [see PC-07: Wrong account]. Part of this change comes from items flagged in pre-close; resolve those before finalizing."
   },
   {
    "account": "6200",

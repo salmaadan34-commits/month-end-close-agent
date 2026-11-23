@@ -55,11 +55,12 @@ def run(data, period=G.PERIOD):
                                         "Have an independent reviewer approve; note as a control exception."))
 
     # Vendor history for account / amount tests
-    vend_accts, vend_amts = defaultdict(Counter), defaultdict(list)
+    vend_accts, vend_amts, vend_periods = defaultdict(Counter), defaultdict(list), defaultdict(set)
     for r in hist:
         if r["source"] == "AP" and r["type"] == "Expense" and r["counterparty"]:
             vend_accts[r["counterparty"]][r["account"]] += 1
             vend_amts[r["counterparty"]].append(r["pl_amount"])
+            vend_periods[r["counterparty"]].add(r["period"])
 
     seen_invoice = {}
     for r in sorted(cur, key=lambda x: (x["date"], x["je_number"])):
@@ -114,20 +115,30 @@ def run(data, period=G.PERIOD):
             med = median(amts)
             if med > 0 and r["pl_amount"] > G.UNUSUAL_MULTIPLE * med and r["pl_amount"] - med > G.UNUSUAL_MIN_DIFF:
                 annual = any(w in r["memo"].lower() for w in ("annual", "renewal", "12 month", "yearly"))
-                fix = (f"Annual charge: book to 1400 Prepaid and amortize {r['pl_amount'] / 12:,.2f}/month."
+                acct = f"{r['account']} {name(r['account'])}"
+                prepaid = round(r["pl_amount"] * 11 / 12, 2)
+                monthly = round(r["pl_amount"] / 12, 2)
+                ps = sorted(vend_periods[v])
+                basis = (f"median of {len(amts)} monthly invoices, {ps[0]} to {ps[-1]}" if len(ps) > 1
+                         else f"{ps[0]} invoice")
+                fix = (f"12-month charge. Reclass {prepaid:,.2f} from {acct} to 1400 Prepaid Expenses "
+                       f"(Dr 1400 / Cr {r['account']}), leaving one month ({monthly:,.2f}) in {acct}; amortize "
+                       f"{monthly:,.2f}/month to {acct} over the term."
                        if annual else "Confirm with budget owner; check for prepaid or one-time item.")
-                rc = ([("1400", "Prepaid Expenses", round(r["pl_amount"] * 11 / 12, 2), 0, f"Prepay {v}"),
-                       (r["account"], name(r["account"]), 0, round(r["pl_amount"] * 11 / 12, 2), f"Prepay {v}")]
+                rc = ([("1400", "Prepaid Expenses", prepaid, 0, f"Prepay {v}"),
+                       (r["account"], name(r["account"]), 0, prepaid, f"Prepay {v}")]
                       if annual else [])
                 findings.append(Finding("Unusual amount", "Medium",
                                         issue=f"{r['pl_amount']:,.2f} is {r['pl_amount'] / med:.1f}x {v}'s typical "
-                                              f"{med:,.2f}. Memo: '{r['memo']}'.", fix=fix, reclass=rc, **base))
+                                              f"{med:,.2f} ({basis}). Memo: '{r['memo']}'.", fix=fix, reclass=rc, **base))
 
         # 6. Cutoff
         if r["service_period"] and r["service_period"] > period:
             findings.append(Finding("Cutoff", "High",
                                     issue=f"Service period {r['service_period']} booked in {period}.",
-                                    fix="Move to 1400 Prepaid; expense in the service month.",
+                                    fix=(f"Reclass {r['pl_amount']:,.2f} from {r['account']} {name(r['account'])} to 1400 "
+                                         f"Prepaid Expenses (Dr 1400 / Cr {r['account']}) to reverse the {period} expense; "
+                                         f"expense it to {r['account']} in {r['service_period']}, the service month."),
                                     reclass=[("1400", "Prepaid Expenses", r["pl_amount"], 0, f"Cutoff {v}"),
                                              (r["account"], name(r["account"]), 0, r["pl_amount"],
                                               f"Cutoff {v}")], **base))

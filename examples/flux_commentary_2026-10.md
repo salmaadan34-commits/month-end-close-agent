@@ -1,6 +1,6 @@
 # Flux Commentary - 2026-10 vs prior month
 
-**Revenue** 266,160 (+30,000) | **Expenses** 829,512 (+173,869) | **Net income** -563,352 (-143,869)
+**Revenue** 266,160 (+30,000) | **Expenses** 879,112 (+223,469) | **Net income** -612,952 (-193,469)
 
 > Draft. 7 high-severity pre-close findings are open; commentary marked [see PC-xx] will change once they are resolved.
 
@@ -22,7 +22,7 @@ Employee Benefits up $6.1K (+11%) vs prior month; $5.0K over budget. Drivers: En
 
 ### 6100 Software Subscriptions
 
-Software Subscriptions up $41.4K (+275%) vs prior month; $41.1K over budget. Drivers: WeWork $18.8K new this month (Office rent - Seattle) [see PC-07: Wrong account]; Salesforce +$18.5K (Salesforce annual renewal) [see PC-12: Unusual amount]. Part of this change comes from items flagged in pre-close; resolve those before finalizing.
+Software Subscriptions up $91.0K (+605%) vs prior month; $90.7K over budget. Drivers: Salesforce +$68.1K (Salesforce annual renewal, Oct 2026-Sep 2027) [see PC-12: Unusual amount]; WeWork $18.8K new this month (Office rent - Seattle) [see PC-07: Wrong account]. Part of this change comes from items flagged in pre-close; resolve those before finalizing.
 
 ### 6200 Rent
 
